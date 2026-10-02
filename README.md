@@ -10,8 +10,8 @@ python3 -m http.server 8000
 | File | Page |
 | --- | --- |
 | `index.html` | Home — hero, marquee, scroll-lit manifesto, stats, services, horizontal-scroll work, process, founder, CTA |
-| `services.html` | All services with anchors (`#web-design`, `#seo`, `#local-seo`, `#technical-seo`, `#copywriting`, `#lead-generation`) + FAQ |
-| `work.html` | Featured case study + filterable project grid |
+| `services.html` | All services with anchors (`#web-design`, `#seo`, `#local-seo`, `#technical-seo`, `#conversion-copy`) + FAQ |
+| `work.html` | Featured case study + project grid |
 | `blog.html` | Featured article + upcoming posts + newsletter |
 | `contact.html` | Contact form (accepts `?service=<slug>` to pre-select a service) |
 
@@ -32,4 +32,5 @@ Everything respects `prefers-reduced-motion`.
 - [ ] Replace `https://www.example.com` in `sitemap.xml` and `robots.txt`; add `<link rel="canonical">` and `og:image` per page.
 - [ ] Swap illustrations for real project screenshots in `work.html` / `index.html` (`<img class="shot" ...>` fills the card)
       and add a photo to the founder section (`<img class="photo" ...>`).
-- [ ] Replace the placeholder project cards (marked "Case study soon") with real portfolio projects, and the "Coming soon" blog cards with real posts.
+- [ ] Confirm the FAQ answers on `services.html` (questions are from matthewrissik.com, answers are drafts).
+- [ ] Replace the "Coming soon" blog cards with real posts.

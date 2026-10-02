@@ -56,7 +56,7 @@
     });
   });
 
-  /* ---------- Custom orbit cursor ---------- */
+  /* ---------- Custom ring cursor ---------- */
   if (finePointer && !reduce) {
     const ring = document.createElement('div');
     ring.className = 'cursor';
