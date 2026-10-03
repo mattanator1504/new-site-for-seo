@@ -12,7 +12,7 @@ python3 -m http.server 8000
 | `index.html` | Home — hero, marquee, scroll-lit manifesto, stats, services, horizontal-scroll work, process, founder, CTA |
 | `services.html` | All services with anchors (`#web-design`, `#seo`, `#local-seo`, `#technical-seo`, `#conversion-copy`) + FAQ |
 | `work.html` | Live sites + more projects (logo covers, hover-scroll screenshots) |
-| `blog.html` | Featured article + upcoming posts + newsletter |
+| `blog.html` | Upcoming posts + newsletter |
 | `contact.html` | Contact form (accepts `?service=<slug>` to pre-select a service) |
 
 The **Services** item in the header is a dropdown listing every service. Right now each item links to its
