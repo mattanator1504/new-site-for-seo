@@ -30,7 +30,7 @@ Everything respects `prefers-reduced-motion`.
 - [ ] Set the contact form `action` (Formspree, Netlify Forms, Basin…) — with `action="#"` it validates but doesn't send.
 - [ ] Set the newsletter form `action` on `blog.html`.
 - [ ] Replace `https://www.example.com` in `sitemap.xml` and `robots.txt`; add `<link rel="canonical">` and `og:image` per page.
-- [ ] Swap illustrations for real project screenshots in `work.html` / `index.html` (`<img class="shot" ...>` fills the card)
+- [ ] Swap in higher-resolution screenshots for CJ Stafford, Fractional CEO and Lloyd's (currently under 310px wide) in `assets/img/work/source/`
       and add a photo to the founder section (`<img class="photo" ...>`).
 - [ ] Confirm the FAQ answers on `services.html` (questions are from matthewrissik.com, answers are drafts).
 - [ ] Replace the "Coming soon" blog cards with real posts.

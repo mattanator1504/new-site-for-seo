@@ -637,3 +637,62 @@ fieldset legend { font-family: var(--f-label); font-weight: 600; text-transform:
   .hero-content .lead { padding: 12px 16px; letter-spacing: .06em; font-size: 13px; }
   .hero-content .eyebrow { font-size: 11px; letter-spacing: .14em; }
 }
+
+/* ---------- Project cards: logo cover + hover-scroll screenshot ---------- */
+.proj { display: grid; gap: 18px; align-content: start; }
+.hscroll__track .proj { flex: 0 0 min(78vw, 560px); }
+.proj__frame {
+  position: relative; aspect-ratio: 4 / 3; overflow: hidden; isolation: isolate;
+  border: 2px solid var(--ink); border-radius: var(--radius); background: var(--paper);
+  box-shadow: 8px 8px 0 var(--ink);
+  transition: transform .5s var(--ease), box-shadow .5s var(--ease);
+}
+.proj:hover .proj__frame { transform: translate(-4px, -4px); box-shadow: 12px 12px 0 var(--ink); }
+.proj__cover {
+  position: absolute; inset: 0; z-index: 2; display: grid; place-items: center;
+  background: var(--paper); clip-path: inset(0 0 0 0);
+  transition: clip-path .8s var(--ease-in-out);
+}
+.proj__cover img { position: relative; max-width: 62%; max-height: 60%; object-fit: contain; transition: transform .8s var(--ease); }
+.proj__word { position: relative; font-family: var(--f-display); text-transform: uppercase; font-size: clamp(34px, 4.4vw, 64px); line-height: .95; text-align: center; padding: 0 8%; }
+.proj__word small { display: block; font-family: var(--f-label); font-weight: 600; letter-spacing: .2em; font-size: 13px; margin-top: 12px; }
+.proj__tag {
+  position: absolute; left: 16px; top: 16px; z-index: 3; padding: 6px 14px; border-radius: 99px;
+  background: var(--ink); color: var(--paper);
+  font-family: var(--f-label); font-weight: 600; text-transform: uppercase; letter-spacing: .12em; font-size: 12px;
+  transition: opacity .3s;
+}
+.proj__hint {
+  position: absolute; right: 16px; bottom: 16px; z-index: 3; padding: 6px 12px; border-radius: 99px;
+  border: 1.5px solid var(--ink); background: var(--paper);
+  font-family: var(--f-label); font-weight: 600; text-transform: uppercase; letter-spacing: .12em; font-size: 11px;
+  transition: opacity .3s;
+}
+.proj__screen { position: absolute; inset: 0; display: flex; flex-direction: column; background: #fff; }
+.proj__bar { flex: none; height: 30px; display: flex; align-items: center; gap: 6px; padding: 0 12px; background: var(--ink); color: #a3a29c; }
+.proj__bar i { width: 9px; height: 9px; border-radius: 50%; border: 1.5px solid #a3a29c; }
+.proj__bar span { margin-left: 10px; font-size: 11px; letter-spacing: .04em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.proj__view { position: relative; flex: 1; overflow: hidden; }
+.proj__view img { width: 100%; height: auto; transform: translateY(0); transition: transform 1.2s var(--ease-in-out); will-change: transform; }
+
+/* hover (or tap on touch screens) lifts the cover and scrolls the page */
+.proj.has-screen .proj__frame { cursor: pointer; }
+.proj.has-screen .proj__frame:hover .proj__cover,
+.proj.has-screen .proj__frame.is-active .proj__cover { clip-path: inset(0 0 100% 0); }
+.proj.has-screen .proj__frame:hover .proj__hint,
+.proj.has-screen .proj__frame.is-active .proj__hint,
+.proj.has-screen .proj__frame:hover .proj__tag,
+.proj.has-screen .proj__frame.is-active .proj__tag { opacity: 0; }
+.proj.has-screen .proj__frame:hover .proj__view img,
+.proj.has-screen .proj__frame.is-active .proj__view img {
+  transform: translateY(var(--dist, 0px));
+  transition: transform var(--dur, 8s) linear .35s;
+}
+.proj .meta { display: flex; justify-content: space-between; align-items: center; gap: 14px; }
+.proj h3 { font-family: var(--f-display); font-weight: 400; text-transform: uppercase; font-size: clamp(26px, 2.6vw, 38px); line-height: 1; margin: 0; }
+.proj p { margin: 0; font-size: 13px; color: var(--muted); }
+.proj .visit { flex: none; padding: 8px 14px; font-size: 13px; }
+.proj .label { font-size: 12px; color: var(--muted); white-space: nowrap; }
+
+.work-grid .proj:nth-child(even) { margin-top: 120px; }
+@media (max-width: 760px) { .work-grid .proj:nth-child(even) { margin-top: 0; } }

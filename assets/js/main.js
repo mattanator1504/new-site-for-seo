@@ -295,6 +295,29 @@
     });
   }
 
+  /* ---------- Project cards: hover-scroll screenshots ---------- */
+  const projShots = $$('.proj__view img');
+  const sizeShots = () => projShots.forEach(img => {
+    const view = img.parentElement;
+    const dist = Math.max(0, img.offsetHeight - view.clientHeight);
+    const frame = img.closest('.proj__frame');
+    frame.style.setProperty('--dist', `${-dist}px`);
+    frame.style.setProperty('--dur', `${Math.max(3, dist / 320).toFixed(1)}s`);
+  });
+  projShots.forEach(img => { if (img.complete) sizeShots(); else img.addEventListener('load', sizeShots); });
+  addEventListener('resize', sizeShots);
+  // Touch screens have no hover: tap the frame to play/stop the preview
+  if (!finePointer) $$('.proj__hint').forEach(h => { h.textContent = 'Tap to scroll'; });
+  $$('.proj.has-screen .proj__frame').forEach(frame => {
+    const toggle = () => {
+      const on = !frame.classList.contains('is-active');
+      $$('.proj__frame.is-active').forEach(f => f.classList.remove('is-active'));
+      frame.classList.toggle('is-active', on);
+    };
+    if (!finePointer) frame.addEventListener('click', toggle);
+    frame.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); } });
+  });
+
   /* ---------- Back to top + year ---------- */
   $$('.to-top').forEach(b => b.addEventListener('click', e => { e.preventDefault(); scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' }); }));
   $$('[data-year]').forEach(el => { el.textContent = new Date().getFullYear(); });
