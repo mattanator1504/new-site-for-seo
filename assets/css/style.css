@@ -696,3 +696,10 @@ fieldset legend { font-family: var(--f-label); font-weight: 600; text-transform:
 
 .work-grid .proj:nth-child(even) { margin-top: 120px; }
 @media (max-width: 760px) { .work-grid .proj:nth-child(even) { margin-top: 0; } }
+
+.stats--3 { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 860px) {
+  .stats--3 { grid-template-columns: 1fr; }
+  .stats--3 .stat { padding-left: 0 !important; border-right: 0; }
+  .stats--3 .stat + .stat { border-top: 1px solid var(--line); }
+}
