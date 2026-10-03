@@ -1,4 +1,4 @@
-/* Level Up Digital — motion & interactions (no dependencies) */
+/* Renovo Studio — motion & interactions (no dependencies) */
 (() => {
   const doc = document.documentElement;
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;

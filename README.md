@@ -1,4 +1,4 @@
-# Level Up Digital — Web Design & SEO agency site
+# Renovo Studio — Web Design & SEO agency site
 
 Static site (plain HTML/CSS/JS, no build step). Open `index.html` or serve the folder:
 

@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Level Up Digital — Web Design & SEO
+   Renovo Studio — Web Design & SEO
    Monochrome, bold display type, scroll-driven motion.
    ========================================================================== */
 
@@ -703,3 +703,9 @@ fieldset legend { font-family: var(--f-label); font-weight: 600; text-transform:
   .stats--3 .stat { padding-left: 0 !important; border-right: 0; }
   .stats--3 .stat + .stat { border-top: 1px solid var(--line); }
 }
+
+/* Renovo wordmark */
+.brand .brand-logo { width: auto; height: 34px; transition: none; }
+.brand:hover .brand-logo { transform: none; }
+.site-header.is-scrolled .brand .brand-logo { height: 30px; }
+.site-footer .brand .brand-logo { height: 38px; margin-bottom: 6px; }
