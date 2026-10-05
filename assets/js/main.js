@@ -262,6 +262,10 @@
     });
   }));
 
+  // Deep link: work.html#filter=gtm-outbound opens the grid pre-filtered
+  const hashFilter = (location.hash.match(/^#filter=([\w-]+)/) || [])[1];
+  if (hashFilter) { const b = $(`[data-filter="${hashFilter}"]`); if (b) { b.click(); setTimeout(() => $('#grid-title')?.scrollIntoView(), 400); } }
+
   /* ---------- Contact form ---------- */
   const form = $('#contact-form');
   if (form) {
