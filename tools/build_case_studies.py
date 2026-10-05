@@ -468,7 +468,7 @@ def write_404():
   <link rel="icon" href="/assets/img/favicon-32.png" type="image/png" sizes="32x32">
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
-""" + rel(HEADER, "/").replace('href="/./"', 'href="/"') + body + rel(FOOTER, "/")
+""" + rel(HEADER, "/").replace('href="/./"', 'href="/"').replace(' aria-current="page"', "") + body + rel(FOOTER, "/")
     page = perf.optimise(page, "/")
     open("404.html", "w").write(page)
 
