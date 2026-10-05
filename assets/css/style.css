@@ -746,3 +746,57 @@ fieldset legend { font-family: var(--f-label); font-weight: 600; text-transform:
 .proj__cover--dark { color: var(--paper); }
 .proj__hint { color: var(--ink); }
 .proj__tag { box-shadow: 0 0 0 1.5px var(--paper); }
+
+/* ---------- Case study pages ---------- */
+.cs-hero { padding: 170px 0 60px; }
+.cs-title { font-size: clamp(40px, 6.2vw, 92px); line-height: .95; margin: 22px 0 28px; max-width: 18ch; }
+.cs-short { max-width: 62ch; letter-spacing: .06em; }
+.cs-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 0; margin: 46px 0 0; border-top: 2px solid var(--ink); }
+.cs-facts div { padding: 18px 20px 18px 0; border-bottom: 1px solid var(--line); }
+.cs-facts dt { font-family: var(--f-label); font-weight: 600; text-transform: uppercase; letter-spacing: .14em; font-size: 12px; color: var(--muted); margin-bottom: 4px; }
+.cs-facts dd { margin: 0; font-size: 14px; }
+.cs-stats { margin-top: 50px; }
+.cs-stats .n { font-size: clamp(44px, 5.6vw, 88px); }
+.cs-stats--3 { grid-template-columns: repeat(3, 1fr); }
+.cs-stats--2 { grid-template-columns: repeat(2, 1fr); }
+.cs-image { margin-top: 20px; margin-bottom: clamp(70px, 9vw, 120px); }
+.cs-image img { width: 100%; height: auto; border: 2px solid var(--ink); border-radius: var(--radius); box-shadow: 10px 10px 0 var(--ink); }
+.cs-body { max-width: 980px; }
+.cs-block { display: grid; gap: 18px; margin-bottom: clamp(60px, 8vw, 100px); }
+.cs-block .prose { max-width: 66ch; }
+.cs-built { margin-top: 10px; }
+.cs-quote { margin: 0 0 50px; padding: clamp(30px, 4vw, 50px); background: var(--ink); color: var(--paper); border-radius: var(--radius); }
+.cs-quote p { margin: 0; font-family: var(--f-display); text-transform: uppercase; font-size: clamp(26px, 3.2vw, 44px); line-height: 1.08; }
+.cs-quote cite { display: block; margin-top: 22px; font-style: normal; font-family: var(--f-label); font-weight: 600; text-transform: uppercase; letter-spacing: .16em; font-size: 12px; color: #a3a29c; }
+.cs-next { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 20px; padding: 40px 0 clamp(80px, 10vw, 130px); border-top: 2px solid var(--ink); }
+.cs-next__link { display: grid; text-align: right; }
+.cs-next__link b { font-family: var(--f-display); font-weight: 400; text-transform: uppercase; font-size: clamp(28px, 3.4vw, 48px); line-height: 1; transition: transform .5s var(--ease); }
+.cs-next__link:hover b { transform: translateX(-8px); }
+@media (max-width: 860px) {
+  .cs-hero { padding-top: 130px; }
+  .cs-stats--3, .cs-stats--2 { grid-template-columns: 1fr; }
+  .cs-stats--3 .stat, .cs-stats--2 .stat { padding-left: 0 !important; border-right: 0; border-top: 1px solid var(--line); }
+  .cs-next__link { text-align: left; }
+}
+.proj h3 a { transition: opacity .3s; }
+.proj h3 a:hover { opacity: .7; }
+a.proj__frame { display: block; color: inherit; }
+
+/* ---------- Campaign dashboards ---------- */
+.camp-head { font-family: var(--f-display); font-weight: 400; text-transform: uppercase; font-size: clamp(30px, 3.6vw, 48px); line-height: 1; margin: clamp(70px, 9vw, 110px) 0 12px; }
+.camp-intro { max-width: 70ch; margin: 0 0 34px; }
+.camp-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+.camp { display: grid; gap: 16px; align-content: start; padding: 24px; border: 1.5px solid rgba(255,255,255,.22); border-radius: 22px; }
+.camp h3 { margin: 0; font-family: var(--f-label); font-weight: 700; text-transform: uppercase; letter-spacing: .06em; font-size: 20px; }
+.camp__nums { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin: 0; }
+.camp__nums div { display: grid; gap: 4px; }
+.camp__nums dt { font-family: var(--f-label); font-weight: 600; text-transform: uppercase; letter-spacing: .1em; font-size: 10.5px; color: #a3a29c; line-height: 1.2; }
+.camp__nums dd { margin: 0; font-family: var(--f-display); font-size: 24px; line-height: 1; }
+.camp__nums .is-key dd { color: var(--ink); background: var(--paper); border-radius: 8px; padding: 4px 6px; justify-self: start; }
+.camp__note { margin: 0; font-size: 14px; color: #d8d7d1; }
+.camp__shot { display: block; background: #fff; border-radius: 10px; overflow: hidden; }
+.camp__shot img { width: 100%; height: auto; }
+@media (max-width: 960px) { .camp-grid { grid-template-columns: 1fr; } }
+@media (max-width: 560px) { .camp__nums { grid-template-columns: repeat(3, 1fr); } }
+.cs-hero .crumbs { display: flex; flex-wrap: wrap; gap: 10px; font-family: var(--f-label); text-transform: uppercase; letter-spacing: .14em; font-size: 13px; margin-bottom: 22px; }
+.cs-hero .crumbs span { opacity: .45; }

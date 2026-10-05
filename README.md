@@ -13,6 +13,7 @@ python3 -m http.server 8000
 | `services.html` | Four services with anchors (`#web-design`, `#seo`, `#gtm-outbound`, `#full-growth-system`) + FAQ |
 | `work.html` | All projects in one grid with service filters (logo covers, hover-scroll screenshots) + campaign results |
 | `blog.html` | Upcoming posts + newsletter |
+| `case-studies/*.html` | 16 case studies, generated from `_source/case-studies.json` by `tools/build_case_studies.py` |
 | `contact.html` | Contact form (accepts `?service=<slug>` to pre-select a service) |
 
 The **Services** item in the header is a dropdown listing every service. Right now each item links to its
