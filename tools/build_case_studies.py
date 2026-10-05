@@ -305,6 +305,8 @@ def rel(markup, prefix):
         attr, q, url = m.group(1), m.group(2), m.group(3)
         if re.match(r"^(https?:|mailto:|tel:|#|data:|/)", url) or url.startswith(prefix + "assets/"):
             return m.group(0)
+        if url == "./":
+            return f"{attr}={q}{prefix}"
         return f"{attr}={q}{prefix}{url}"
     return re.sub(r'\b(href|src)=(["\'])([^"\']*)', sub, markup)
 
@@ -382,7 +384,7 @@ def case_page(i, c):
     <article class="cs">
       <header class="cs-hero">
         <div class="container">
-          <nav class="crumbs" aria-label="Breadcrumb"><a href="{P}index.html">Home</a><span>/</span><a href="{P}work.html">Work</a><span>/</span><b>{esc(c["client"])}</b></nav>
+          <nav class="crumbs" aria-label="Breadcrumb"><a href="./">Home</a><span>/</span><a href="{P}work.html">Work</a><span>/</span><b>{esc(c["client"])}</b></nav>
           <span class="eyebrow">{esc(c["category"])} · {esc(", ".join(c["tags"]))}</span>
           <h1 class="display cs-title">{esc(H1.get(slug, c["h1"]))}</h1>
           <p class="lead cs-short">{esc(copy["short"])}</p>
