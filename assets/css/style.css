@@ -725,3 +725,10 @@ fieldset legend { font-family: var(--f-label); font-weight: 600; text-transform:
 .svc-proof .chip { padding: 8px 14px; font-size: 13px; }
 @media (max-width: 560px) { .gtm-steps, .svc-stats { grid-template-columns: 1fr; } }
 .proj[id] { scroll-margin-top: 110px; }
+
+/* Work page: single filterable grid */
+.work-grid .proj.is-hidden { display: none; }
+.work-grid--flat .proj:nth-child(even) { margin-top: 0; }
+.section--dark .stats { border-top-color: var(--paper); }
+.section--dark .stat { border-right-color: rgba(255,255,255,.15); }
+.section--dark .stat .l { color: #a3a29c; }

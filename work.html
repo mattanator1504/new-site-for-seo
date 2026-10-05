@@ -60,19 +60,22 @@
       <div class="container">
         <nav class="crumbs reveal" aria-label="Breadcrumb"><a href="index.html">Home</a><span>/</span><b>Work</b></nav>
         <h1 class="display h-xl" id="ph-title"><span class="extrude" data-split>The work</span></h1>
-        <p class="lead reveal">Outbound campaigns, search strategies and websites for B2B and service businesses. $7.2M generated for clients so far, and judged by one thing: more qualified sales conversations.</p>
+        <p class="lead reveal">Websites, search and outbound for B2B and service businesses. $7.2M generated for clients so far, and judged by one thing: more qualified sales conversations.</p>
       </div>
     </section>
 
-    <section class="section" aria-labelledby="cases-title">
+    <section class="section" aria-labelledby="grid-title">
       <div class="container">
         <div class="section-head">
-          <span class="eyebrow reveal">Lead generation</span>
-          <h2 class="display h-lg" id="cases-title" data-split>Pipeline, not pageviews</h2>
-          <p class="muted reveal">Outbound and full-system work. Full write-ups are on the way.</p>
+          <span class="eyebrow reveal">Projects</span>
+          <h2 class="display h-lg" id="grid-title" data-split>Every project</h2>
+          <p class="muted reveal">Most projects cross more than one service, so filter by what you need. Hover a website to scroll the whole page.</p>
         </div>
-        <div class="work-grid">
-          <article class="proj reveal" id="case-saas">
+        <div class="filters reveal" role="group" aria-label="Filter projects by service">
+          <button class="chip is-active" data-filter="all" aria-pressed="true">All</button><button class="chip" data-filter="web-design" aria-pressed="false">Web Design</button><button class="chip" data-filter="seo" aria-pressed="false">SEO &amp; Local SEO</button><button class="chip" data-filter="gtm-outbound" aria-pressed="false">GTM &amp; Outbound</button><button class="chip" data-filter="full-growth-system" aria-pressed="false">Full Growth System</button>
+        </div>
+        <div class="work-grid work-grid--flat">
+          <article class="proj reveal" data-cat="full-growth-system gtm-outbound web-design" id="case-saas">
             <div class="proj__frame">
               <div class="proj__cover"><div class="dots dots--ink" aria-hidden="true"></div><span class="proj__word">$2M → $7M<small>ARR in 9 months</small></span></div>
               <span class="proj__tag">Full Growth System</span><span class="proj__hint" aria-hidden="true">Full case study soon</span>
@@ -80,15 +83,19 @@
             <div class="meta"><h3>B2B Cyber Security SaaS</h3><span class="label">Case study</span></div>
             <p>Stuck at roughly $2M ARR. We redesigned the enterprise buyer funnel, sharpened the cold email positioning and built an automated demo booking system. Nine months later: $7.2M ARR, 142 enterprise demos and a 3.8x faster pipeline. Not a typical result. A real one.</p>
           </article>
-          <article class="proj reveal" id="case-pinnacle">
-            <div class="proj__frame">
-              <div class="proj__cover"><div class="dots dots--ink" aria-hidden="true"></div><span class="proj__word">Pinnacle<small>Real Estate Group</small></span></div>
-              <span class="proj__tag">GTM & Outbound · Real estate</span><span class="proj__hint" aria-hidden="true">Full case study soon</span>
+          <article class="proj has-screen reveal" data-cat="full-growth-system web-design seo gtm-outbound">
+            <div class="proj__frame" tabindex="0" role="button" aria-label="Preview the Mike K Realtor website" data-cursor="Scroll">
+              <div class="proj__screen" aria-hidden="true">
+                <div class="proj__bar"><i></i><i></i><i></i><span>mikekrealtor.com</span></div>
+                <div class="proj__view"><img src="assets/img/work/source/shot-mike-k-realtor.jpg" alt="" loading="lazy"></div>
+              </div>
+              <div class="proj__cover"><div class="dots dots--ink" aria-hidden="true"></div><img src="assets/img/work/logos/mike-k-realtor.png" alt="Mike K Realtor logo" loading="lazy"></div>
+              <span class="proj__tag">Web, SEO &amp; outbound · Real estate</span><span class="proj__hint" aria-hidden="true">Hover to scroll</span>
             </div>
-            <div class="meta"><h3>Pinnacle Real Estate Group</h3><span class="label">Case study</span></div>
-            <p>Multi-channel outreach infrastructure, with cold email and LinkedIn running side by side so the right prospects hear from them in more than one place.</p>
+            <div class="meta"><h3>Mike K Realtor</h3><a class="chip visit" href="https://mikekrealtor.com/" target="_blank" rel="noopener">Visit site ↗</a></div>
+            <p>A senior realtor's site for buyers, sellers and investors across the San Gabriel Valley. Featured listings, a home valuation offer and consultation booking front and center, backed by SEO and outbound.</p>
           </article>
-          <article class="proj has-screen reveal" id="case-cj-stafford">
+          <article class="proj has-screen reveal" data-cat="gtm-outbound web-design seo" id="case-cj-stafford">
             <div class="proj__frame" tabindex="0" role="button" aria-label="Preview the CJ Stafford Construction website" data-cursor="Scroll">
               <div class="proj__screen" aria-hidden="true">
                 <div class="proj__bar"><i></i><i></i><i></i><span>cjstaffordconstruction.com</span></div>
@@ -100,7 +107,15 @@
             <div class="meta"><h3>CJ Stafford Construction</h3><a class="chip visit" href="https://cjstaffordconstruction.com/" target="_blank" rel="noopener">Visit site ↗</a></div>
             <p>An outbound funnel aimed at commercial property managers. Not homeowners. Not "anyone with a building." Plus the site it sends them to, with consultation booking above the fold.</p>
           </article>
-          <article class="proj reveal" id="case-monroy">
+          <article class="proj reveal" data-cat="gtm-outbound" id="case-pinnacle">
+            <div class="proj__frame">
+              <div class="proj__cover"><div class="dots dots--ink" aria-hidden="true"></div><span class="proj__word">Pinnacle<small>Real Estate Group</small></span></div>
+              <span class="proj__tag">GTM & Outbound · Real estate</span><span class="proj__hint" aria-hidden="true">Full case study soon</span>
+            </div>
+            <div class="meta"><h3>Pinnacle Real Estate Group</h3><span class="label">Case study</span></div>
+            <p>Multi-channel outreach infrastructure, with cold email and LinkedIn running side by side so the right prospects hear from them in more than one place.</p>
+          </article>
+          <article class="proj reveal" data-cat="gtm-outbound web-design" id="case-monroy">
             <div class="proj__frame">
               <div class="proj__cover"><div class="dots dots--ink" aria-hidden="true"></div><span class="proj__word">Monroy<small>SF Cleaning</small></span></div>
               <span class="proj__tag">Outbound + website · Cleaning</span><span class="proj__hint" aria-hidden="true">Full case study soon</span>
@@ -108,31 +123,7 @@
             <div class="meta"><h3>Monroy SF Cleaning</h3><span class="label">Case study</span></div>
             <p>Commercial cleaning outbound campaigns, plus a local lead-gen site with an instant quote. People want a price before they want a conversation.</p>
           </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" aria-labelledby="grid-title">
-      <div class="container">
-        <div class="section-head">
-          <span class="eyebrow reveal">Websites</span>
-          <h2 class="display h-lg" id="grid-title" data-split>Recent projects</h2>
-          <p class="muted reveal">Hover a project to scroll the whole page. Or visit the real thing.</p>
-        </div>
-        <div class="work-grid">
-          <article class="proj has-screen reveal">
-            <div class="proj__frame" tabindex="0" role="button" aria-label="Preview the Mike K Realtor website" data-cursor="Scroll">
-              <div class="proj__screen" aria-hidden="true">
-                <div class="proj__bar"><i></i><i></i><i></i><span>mikekrealtor.com</span></div>
-                <div class="proj__view"><img src="assets/img/work/source/shot-mike-k-realtor.jpg" alt="" loading="lazy"></div>
-              </div>
-              <div class="proj__cover"><div class="dots dots--ink" aria-hidden="true"></div><img src="assets/img/work/logos/mike-k-realtor.png" alt="Mike K Realtor logo" loading="lazy"></div>
-              <span class="proj__tag">Real estate · Pasadena, CA</span><span class="proj__hint" aria-hidden="true">Hover to scroll</span>
-            </div>
-            <div class="meta"><h3>Mike K Realtor</h3><a class="chip visit" href="https://mikekrealtor.com/" target="_blank" rel="noopener">Visit site ↗</a></div>
-            <p>A senior realtor's site for buyers, sellers and investors across the San Gabriel Valley. Featured listings, a home valuation offer and consultation booking front and center.</p>
-          </article>
-          <article class="proj has-screen reveal">
+          <article class="proj has-screen reveal" data-cat="web-design">
             <div class="proj__frame" tabindex="0" role="button" aria-label="Preview the Fractional CEO website" data-cursor="Scroll">
               <div class="proj__screen" aria-hidden="true">
                 <div class="proj__bar"><i></i><i></i><i></i><span>fractional-ceo.com</span></div>
@@ -144,7 +135,7 @@
             <div class="meta"><h3>Fractional CEO</h3><a class="chip visit" href="https://www.fractional-ceo.com/" target="_blank" rel="noopener">Visit site ↗</a></div>
             <p>Explains what a fractional CEO is, when to hire one and who you'd be working with. Then gives you one clear way to get in touch.</p>
           </article>
-          <article class="proj has-screen reveal">
+          <article class="proj has-screen reveal" data-cat="web-design">
             <div class="proj__frame" tabindex="0" role="button" aria-label="Preview the Silver Solutions website" data-cursor="Scroll">
               <div class="proj__screen" aria-hidden="true">
                 <div class="proj__bar"><i></i><i></i><i></i><span>silversolutionsintermodal.co.za</span></div>
@@ -156,19 +147,7 @@
             <div class="meta"><h3>Silver Solutions</h3><a class="chip visit" href="https://silversolutionsintermodal.co.za/" target="_blank" rel="noopener">Visit site ↗</a></div>
             <p>Warehousing, road freight and container management for a Cape Town logistics company, with a quote request built into the page.</p>
           </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" style="padding-top:0" aria-labelledby="more-title">
-      <div class="container">
-        <div class="section-head">
-          <span class="eyebrow reveal">More projects</span>
-          <h2 class="display h-lg" id="more-title" data-split>More of the work</h2>
-          <p class="muted reveal">Websites and brand identities for logistics, recruiting, wellness and local service businesses.</p>
-        </div>
-        <div class="work-grid">
-          <article class="proj has-screen reveal">
+          <article class="proj has-screen reveal" data-cat="web-design">
             <div class="proj__frame" tabindex="0" role="button" aria-label="Preview the Karpel Associates website" data-cursor="Scroll">
               <div class="proj__screen" aria-hidden="true">
                 <div class="proj__bar"><i></i><i></i><i></i><span>Karpel Associates</span></div>
@@ -180,7 +159,7 @@
             <div class="meta"><h3>Karpel Associates</h3><span class="label">Website</span></div>
             <p>Executive search for the renewable energy industry. Proof up top, a four-step search process and a contact form at the end.</p>
           </article>
-          <article class="proj has-screen reveal">
+          <article class="proj has-screen reveal" data-cat="web-design">
             <div class="proj__frame" tabindex="0" role="button" aria-label="Preview the Lloyd's Global Logistics website" data-cursor="Scroll">
               <div class="proj__screen" aria-hidden="true">
                 <div class="proj__bar"><i></i><i></i><i></i><span>Lloyd's Global Logistics</span></div>
@@ -192,7 +171,7 @@
             <div class="meta"><h3>Lloyd's Global Logistics</h3><span class="label">Website</span></div>
             <p>A shipping quote form in the hero, a full services grid and a blog of import and export guides.</p>
           </article>
-          <article class="proj has-screen reveal">
+          <article class="proj has-screen reveal" data-cat="web-design">
             <div class="proj__frame" tabindex="0" role="button" aria-label="Preview the Fit For Life website" data-cursor="Scroll">
               <div class="proj__screen" aria-hidden="true">
                 <div class="proj__bar"><i></i><i></i><i></i><span>Fit For Life</span></div>
@@ -203,7 +182,7 @@
             <div class="meta"><h3>Fit For Life</h3><span class="label">Website</span></div>
             <p>Click-to-call and a free consultation offer up front, with the trainer's story and client results underneath.</p>
           </article>
-          <article class="proj has-screen reveal">
+          <article class="proj has-screen reveal" data-cat="web-design">
             <div class="proj__frame" tabindex="0" role="button" aria-label="Preview the Wheels to Wellness website" data-cursor="Scroll">
               <div class="proj__screen" aria-hidden="true">
                 <div class="proj__bar"><i></i><i></i><i></i><span>Wheels to Wellness</span></div>
@@ -214,7 +193,7 @@
             <div class="meta"><h3>Wheels to Wellness</h3><span class="label">Website</span></div>
             <p>In-office and mobile massage, with booking and a call button never more than a scroll away.</p>
           </article>
-          <article class="proj has-screen reveal">
+          <article class="proj has-screen reveal" data-cat="web-design">
             <div class="proj__frame" tabindex="0" role="button" aria-label="Preview the Surface Solutions website" data-cursor="Scroll">
               <div class="proj__screen" aria-hidden="true">
                 <div class="proj__bar"><i></i><i></i><i></i><span>Surface Solutions</span></div>
@@ -225,7 +204,7 @@
             <div class="meta"><h3>Surface Solutions</h3><span class="label">Website</span></div>
             <p>A free-estimate form in the hero, a before-and-after gallery and the questions customers actually ask.</p>
           </article>
-          <article class="proj reveal">
+          <article class="proj reveal" data-cat="web-design">
             <div class="proj__frame">
               <div class="proj__cover"><div class="dots dots--ink" aria-hidden="true"></div><span class="proj__word">Ramjee<br>Aesthetics<small>Cape Town, South Africa</small></span></div>
               <span class="proj__tag">Aesthetics clinic · Cape Town</span>
@@ -233,7 +212,7 @@
             <div class="meta"><h3>Ramjee Aesthetics</h3><span class="label">Website</span></div>
             <p>An aesthetics practice site built around one action: book a personal consultation.</p>
           </article>
-          <article class="proj reveal">
+          <article class="proj reveal" data-cat="branding">
             <div class="proj__frame">
               <div class="proj__cover"><div class="dots dots--ink" aria-hidden="true"></div><img src="assets/img/work/logos/midnight-owl.png" alt="Midnight Owl Group logo" loading="lazy"></div>
               <span class="proj__tag">Brand identity</span>
@@ -241,7 +220,7 @@
             <div class="meta"><h3>Midnight Owl Group</h3><span class="label">Branding</span></div>
             <p>Logo and brand identity.</p>
           </article>
-          <article class="proj reveal">
+          <article class="proj reveal" data-cat="branding">
             <div class="proj__frame">
               <div class="proj__cover"><div class="dots dots--ink" aria-hidden="true"></div><img src="assets/img/work/logos/syncd.png" alt="Sync'd logo" loading="lazy"></div>
               <span class="proj__tag">Brand identity</span>
@@ -253,14 +232,31 @@
       </div>
     </section>
 
+    <section class="section section--dark on-dark" aria-labelledby="results-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow reveal">Campaign results</span>
+          <h2 class="display h-lg" id="results-title" data-split>From outbound campaigns</h2>
+          <p class="muted reveal">Numbers from live client campaigns. Every campaign is different, so treat these as what has happened, not a promise.</p>
+        </div>
+        <div class="stats" data-stagger style="border-top-color:var(--paper)">
+          <div class="stat reveal"><div class="n" data-count="7.2" data-prefix="$" data-suffix="M">$0M</div><div class="l">Generated for clients, collectively</div></div>
+          <div class="stat reveal"><div class="n" data-count="2000" data-suffix="+">0+</div><div class="l">Leads, across client campaigns</div></div>
+          <div class="stat reveal"><div class="n" data-count="32" data-suffix="%+">0%+</div><div class="l">Cold email reply rates, up to</div></div>
+          <div class="stat reveal"><div class="n" data-count="142">0</div><div class="l">Enterprise demos, one SaaS client</div></div>
+        </div>
+        <!-- Campaign screenshots go here once supplied (assets/img/work/campaigns/) -->
+      </div>
+    </section>
+
     <section class="cta" aria-labelledby="cta-title">
       <div class="blob blob--b" aria-hidden="true"><div class="dots"></div></div>
       <img class="cta-a float float--slow" src="assets/img/serp.svg" alt="" aria-hidden="true">
       <img class="cta-b float" src="assets/img/cursor.svg" alt="" aria-hidden="true">
       <div class="container on-dark">
         <span class="eyebrow reveal">Start a project</span>
-        <h2 class="display h-lg" id="cta-title" data-split>Your site,<br>working harder.</h2>
-        <p class="lead muted reveal">Tell us what your website should be doing for you, and we'll show you how to get it there.</p>
+        <h2 class="display h-lg" id="cta-title" data-split>Your project<br>could be next.</h2>
+        <p class="lead muted reveal">Tell us where your pipeline is stuck. We'll tell you what we'd do about it, and what it costs.</p>
         <div class="hero-actions reveal">
           <a class="btn" href="contact.html" data-cursor="Hello">Book a 15-minute call <svg class="arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h12M9 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></a>
           <a class="btn btn--ghost" href="work.html">See the work</a>
@@ -275,7 +271,7 @@
       <div class="footer-top">
         <div>
           <a class="brand" href="index.html" aria-label="Renovo Studio — home"><img class="brand-logo" src="assets/img/renovo-logo.png" alt="Renovo Studio" width="118" height="36" style="filter:invert(1)"></a>
-          <p>Web design and SEO for B2B and service businesses. The people building your site are the people you talk to, from the first call to launch day.</p>
+          <p>Websites, SEO and outbound for B2B and service businesses. The people doing the work are the people you talk to, from the first call onwards.</p>
           <a class="btn" href="contact.html">Start a project <svg class="arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h12M9 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></a>
         </div>
         <div>
