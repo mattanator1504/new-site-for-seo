@@ -1,15 +1,16 @@
 # Keyword log
 
 One primary keyword per page. Check here before targeting a keyword, and never reuse one.
+Static page keywords live in `PAGES` in `tools/seo.py`; case study keywords in `SEO` in `tools/build_case_studies.py`.
 Case study keywords deliberately differ from the matching pages on matthewrissik.com so the two sites don't compete.
 
 | Page | Primary keyword |
 |---|---|
 | `index.html` | web design seo and outbound lead generation |
 | `services.html` | web design, seo and gtm outbound services |
-| `work.html` | case studies (brand) |
-| `contact.html` | book a call (brand) |
+| `work.html` | web design and lead generation case studies |
 | `blog.html` | web design and seo blog |
+| `contact.html` | book a pipeline strategy call |
 | `case-studies/b2b-saas-growth-system.html` | saas outbound lead generation |
 | `case-studies/medspa-dr.html` | med spa software cold email |
 | `case-studies/all-med-search.html` | medical staffing lead generation |

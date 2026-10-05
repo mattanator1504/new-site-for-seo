@@ -26,11 +26,14 @@ parallax (`data-speed`), mouse parallax in the hero (`data-depth`), velocity-rea
 work section, a scroll-scrubbed manifesto, number counters, magnetic buttons and a custom orbit cursor.
 Everything respects `prefers-reduced-motion`.
 
+## SEO
+Checklist: `content-guide/on-page-seo.md`. Rebuild with `python3 tools/build_case_studies.py`, then check with `python3 tools/seo_check.py`.
+
 ## Before going live
 - [ ] Replace `hello@example.com` on `contact.html` with your business email.
 - [ ] Set the contact form `action` (Formspree, Netlify Forms, Basin…) — with `action="#"` it validates but doesn't send.
 - [ ] Set the newsletter form `action` on `blog.html`.
-- [ ] Replace `https://www.example.com` in `sitemap.xml` and `robots.txt`; add `<link rel="canonical">` and `og:image` per page.
+- [ ] Set the live domain in `SITE_URL` (`tools/seo.py`) and `robots.txt`, then rebuild.
 - [ ] Swap in higher-resolution screenshots for CJ Stafford, Fractional CEO and Lloyd's (currently under 310px wide) in `assets/img/work/source/`
       and add a photo to the founder section (`<img class="photo" ...>`).
 - [ ] Confirm the FAQ answers on `services.html` (questions are from matthewrissik.com, answers are drafts).

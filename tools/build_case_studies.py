@@ -13,11 +13,12 @@ Facts come only from the JSON. This file holds the site-specific layer: rewritte
 titles/meta/keywords, lightly reworded `short`/`situation` copy in the agency "we"
 voice, image/logo mapping and service filters. `internalSourceNote` is never output.
 """
-import html, json, os, re
+import html, json, os, re, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(ROOT)
-SITE_URL = "https://www.example.com"   # TODO: set the live domain (also in sitemap/robots)
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from seo import SITE_URL, apply_all as apply_seo  # noqa: E402  (live domain is set in tools/seo.py)
 TODAY = "2026-10-05"
 BRAND = "Renovo Studio"
 IMG = "assets/img/work"
@@ -34,36 +35,45 @@ CAMPAIGNS = DATA["campaigns"]
 SEO = {
     "b2b-saas-growth-system": ("SaaS Outbound Case Study: $2M to $7.2M ARR", "saas outbound lead generation",
         "How a cyber security SaaS company grew from about $2M to $7.2M ARR in 9 months with one niche, a rebuilt funnel and 142 enterprise demos booked."),
-    "medspa-dr": ("Cold Email for Med Spa Software: 51 Calls, $250K", "med spa software cold email",
-        "Cold email to med spa owners in Texas, Arizona and California: 51 qualified calls and $250K in pipeline in 60 days for the MedSpa DR CRM."),
-    "all-med-search": ("Medical Staffing Lead Generation: 65 Meetings", "medical staffing lead generation",
+    "medspa-dr": ("Med Spa Software Cold Email: 51 Calls", "med spa software cold email",
+        "Med spa software cold email case study: a campaign to med spa owners in Texas, Arizona and California booked 51 qualified calls and $250K pipeline in 60 days."),
+    "all-med-search": ("Medical Staffing Lead Gen: 65 Meetings", "medical staffing lead generation",
         "Two cold email campaigns for a medical staffing firm, one to Canadian nurses and one to US facilities, booked 65 meetings from 60,000 emails."),
-    "cj-stafford-construction": ("Construction Company Outbound: 25 Leads in 6 Weeks", "construction company outbound",
-        "A 6-week outbound campaign plus a rebuilt website added 25 new leads to CJ Stafford Construction's pipeline in Phase 1."),
-    "gabes-window-cleaning": ("Commercial Window Cleaning Leads: ~20 in 6 Weeks", "commercial window cleaning leads",
-        "Outbound to Tucson property and facility managers brought Gabe's Window Cleaning about 20 quote-ready commercial leads in 6 weeks."),
-    "monroy-sf-cleaning": ("Commercial Cleaning Leads: 20 Quote-Ready in 8 Weeks", "commercial cleaning leads",
+    "cj-stafford-construction": ("Construction Company Outbound: 25 New Leads", "construction company outbound",
+        "Construction company outbound case study: a 6-week campaign to commercial decision-makers plus a rebuilt website added 25 new leads to CJ Stafford's pipeline."),
+    "gabes-window-cleaning": ("Commercial Window Cleaning Leads Case Study", "commercial window cleaning leads",
+        "Commercial window cleaning leads case study: outbound to Tucson property and facility managers brought Gabe's about 20 quote-ready commercial leads in 6 weeks."),
+    "monroy-sf-cleaning": ("Commercial Cleaning Leads: 20 in 8 Weeks", "commercial cleaning leads",
         "50,000+ targeted emails plus SMS, LinkedIn and calls delivered 20 quote-ready leads to a San Francisco cleaning company in 8 weeks, without paid ads."),
-    "pinnacle-real-estate": ("LA County Real Estate Leads: 30+ Vetted in 2 Months", "la county real estate leads",
+    "pinnacle-real-estate": ("LA County Real Estate Leads: 30+ Vetted", "la county real estate leads",
         "A targeted campaign across LA County delivered 30+ vetted buyer and seller leads to Pinnacle Real Estate Group in 2 months, several of which closed."),
-    "mike-k-realtor": ("Real Estate Agent Website and Outbound: ~60 Leads", "real estate agent website",
-        "A brand-forward website and outbound for a new real estate agent produced about 60 hot leads and multiple closed deals."),
-    "silver-solutions": ("Logistics Company Website Design: Silver Solutions", "logistics company website design",
-        "A logistics website rebuilt to lead with capabilities, make services easy to find, add SEO foundations and simplify quote requests."),
+    "mike-k-realtor": ("Real Estate Agent Website & Outbound", "real estate agent website",
+        "Real estate agent website case study: a brand-forward site and outbound for a new agent who left pharmacy produced about 60 hot leads and multiple closed deals."),
+    "silver-solutions": ("Logistics Company Website Design Case Study", "logistics company website design",
+        "Logistics company website design case study: Silver Solutions' site rebuilt to lead with its capabilities, make services easy to find and simplify quotes."),
     "fractional-ceo": ("Website and SEO for a Fractional CEO Firm", "fractional ceo website",
-        "A launch website, niche keyword research, a content plan and analytics from day one for a new fractional executive firm."),
+        "Fractional CEO website case study: a launch site built from scratch, niche keyword research, a content plan and analytics from day one for a new executive firm."),
     "tengy": ("Event Food Ordering App UX Design: Tengy", "event food ordering app",
         "UX/UI for Tengy: order food and drinks from your seat at concerts and festivals, pay cashless, and give vendors a real-time order dashboard."),
     "kago-yama": ("Smallholder Farming App UX Design: Kago Yama", "smallholder farming app",
         "A ~25-screen Figma prototype for Limpopo smallholder farmers to manage plots, flag crop problems and sell produce, later used by a real farm."),
     "megalit-utility-app": ("Water Meter and Bill Payment App UX: MegaLit", "water meter app design",
-        "UX/UI for MegaLit: real-time water meter readings, in-app bill payment and usage analytics for Johannesburg residents of every tech level."),
+        "Water meter app design for MegaLit: real-time readings, in-app bill payment and usage analytics for Johannesburg residents with any level of tech confidence."),
     "hlomo": ("Community SOS App Concept UX Design: Hlomo", "sos app design",
-        "Hlomo, a one-tap SOS concept for South Africa that alerts trusted neighbors and responders together, designed to stay simple under stress."),
-    "dress-me-up": ("AI Outfit and Tailor Chat App UX: Dress Me Up", "outfit app ux case study",
-        "A 16-week fashion app prototype with a 60-second style quiz and in-app tailor chat, shaped by 100 survey responses and 8 interviews."),
-    "syncd": ("Creative Community Platform UX Design: Sync'd", "creative community platform",
-        "Sync'd, a web-first hub where South Africa's emerging artists, writers and podcasters could read, listen and connect."),
+        "Hlomo, an SOS app design concept for South Africa: one tap alerts trusted neighbors and professional responders together, designed to stay simple under stress."),
+    "dress-me-up": ("Outfit App UX Case Study: Dress Me Up", "outfit app ux case study",
+        "Outfit app UX case study: a 16-week fashion app prototype with a 60-second style quiz and in-app tailor chat, shaped by 100 survey responses and 8 interviews."),
+    "syncd": ("Creative Community Platform Design: Sync'd", "creative community platform",
+        "Sync'd, a creative community platform design: a web-first hub where South Africa's emerging artists, writers and podcasters could read, listen and connect."),
+}
+
+# Keyword-led H1s (same facts) so the H1 carries this site's keyword, not matthewrissik.com's.
+H1 = {
+    "medspa-dr": "Med spa software cold email: 51 calls and $250K in pipeline",
+    "all-med-search": "Medical staffing lead generation: 65 meetings from two cold email campaigns",
+    "cj-stafford-construction": "Construction company outbound: 25 new leads in 6 weeks",
+    "megalit-utility-app": "Water meter app design: MegaLit",
+    "dress-me-up": "Outfit app UX case study: Dress Me Up",
 }
 
 # Lightly reworded `short` and `situation` (same facts), in this site's agency voice.
@@ -339,7 +349,7 @@ def case_page(i, c):
     url = f"{SITE_URL}/case-studies/{slug}.html"
     copy = COPY[slug]
     ld = [
-        {"@context": "https://schema.org", "@type": "Article", "headline": c["h1"], "description": desc,
+        {"@context": "https://schema.org", "@type": "Article", "headline": H1.get(slug, c["h1"]), "description": desc,
          "image": f"{SITE_URL}/{img(c['images']['full'])}", "datePublished": TODAY, "dateModified": TODAY,
          "keywords": kw, "about": c["client"], "mainEntityOfPage": url,
          "author": {"@type": "Organization", "name": BRAND},
@@ -373,7 +383,7 @@ def case_page(i, c):
         <div class="container">
           <nav class="crumbs reveal" aria-label="Breadcrumb"><a href="{P}index.html">Home</a><span>/</span><a href="{P}work.html">Work</a><span>/</span><b>{esc(c["client"])}</b></nav>
           <span class="eyebrow reveal">{esc(c["category"])} · {esc(", ".join(c["tags"]))}</span>
-          <h1 class="display cs-title" data-split>{esc(c["h1"])}</h1>
+          <h1 class="display cs-title" data-split>{esc(H1.get(slug, c["h1"]))}</h1>
           <p class="lead reveal cs-short">{esc(copy["short"])}</p>
           <dl class="cs-facts reveal">{facts_html}</dl>{stats}
         </div>
@@ -480,6 +490,7 @@ def main():
     sm = '<?xml version="1.0" encoding="UTF-8"?>\n<!-- TODO: replace https://www.example.com with your live domain -->\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     sm += "".join(f"  <url><loc>{SITE_URL}/{p}</loc><lastmod>{TODAY}</lastmod></url>\n" for p in pages) + "</urlset>\n"
     open("sitemap.xml", "w").write(sm)
+    apply_seo()
     print(f"built {len(CASES)} case studies, {len(order)} cards, {len(CAMPAIGNS)} campaigns")
 
 

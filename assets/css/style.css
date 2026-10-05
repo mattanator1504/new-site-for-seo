@@ -52,7 +52,8 @@ body::after {
 }
 
 main { overflow-x: clip; }
-img, svg { display: block; max-width: 100%; }
+img, svg { display: block; max-width: 100%; height: auto; }
+.hero-stage img { width: 100%; }
 a { color: inherit; text-decoration: none; }
 button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
 ::selection { background: var(--ink); color: var(--paper); }
@@ -610,7 +611,7 @@ fieldset legend { font-family: var(--f-label); font-weight: 600; text-transform:
 .site-footer { position: relative; background: var(--ink); color: var(--paper); padding: clamp(80px, 10vw, 130px) 0 30px; overflow: hidden; }
 
 .footer-top { position: relative; display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 40px; }
-.footer-top h4 { font-family: var(--f-label); font-weight: 600; text-transform: uppercase; letter-spacing: .16em; font-size: 13px; color: #a3a29c; margin: 0 0 18px; }
+.footer-top h2 { font-family: var(--f-label); font-weight: 600; text-transform: uppercase; letter-spacing: .16em; font-size: 13px; color: #a3a29c; margin: 0 0 18px; }
 .footer-top ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
 .footer-top a { font-family: var(--f-label); font-weight: 600; text-transform: uppercase; letter-spacing: .08em; font-size: 16px; }
 .footer-top p { font-size: 13px; color: #a3a29c; max-width: 34ch; }
@@ -801,3 +802,7 @@ a.proj__frame { display: block; color: inherit; }
 .cs-hero .crumbs { display: flex; flex-wrap: wrap; gap: 10px; font-family: var(--f-label); text-transform: uppercase; letter-spacing: .14em; font-size: 13px; margin-bottom: 22px; }
 .cs-hero .crumbs span { opacity: .45; }
 .camp__noshot { margin: 0; padding: 14px; border: 1px dashed rgba(255,255,255,.25); border-radius: 10px; font-family: var(--f-label); text-transform: uppercase; letter-spacing: .12em; font-size: 12px; color: #a3a29c; text-align: center; }
+
+/* Keyword line inside page H1s (styled like the eyebrow labels) */
+.h1-kicker { display: flex; width: fit-content; line-height: 1.4; margin-bottom: 22px; text-shadow: none; -webkit-text-stroke: 0; color: var(--ink); }
+.hero-title .h1-kicker { margin: 0 auto 28px; background: var(--paper); padding: 6px 14px; border-radius: 99px; }
