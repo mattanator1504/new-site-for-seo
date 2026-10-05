@@ -14,6 +14,7 @@ Brand: **Renovo Studio** (logo: `assets/img/renovo-logo.png`). Keep the existing
 
 Services (4): Web Design · SEO & Local SEO (technical audits + content live inside it) · GTM & Outbound (cold email + LinkedIn) · Full Growth System.
 The $7.2M figure may be used as "generated for clients, collectively".
+The B2B cyber security SaaS case study is **lead generation only** (not Full Growth System or web design).
 "32%+" is a **positive reply rate** (interested replies ÷ replies), never a plain reply rate.
 
 ## Case studies

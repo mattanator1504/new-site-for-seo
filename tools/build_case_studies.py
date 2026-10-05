@@ -189,9 +189,17 @@ def img(path):
     return path.replace("images/projects/", f"{IMG}/projects/").replace("images/campaigns/", f"{IMG}/campaigns/")
 
 
+# Owner's correction: services shown on this site (overrides the export's service list).
+SERVICE_OVERRIDE = {"b2b-saas-growth-system": ["outbound-lead-generation"]}
+
+
+def services_of(p):
+    return SERVICE_OVERRIDE.get(p["slug"], p.get("services", []))
+
+
 def cats(p):
     out = list(CAT_FILTER.get(p["category"], []))
-    for s in p.get("services", []):
+    for s in services_of(p):
         if SERVICE_FILTER.get(s) and SERVICE_FILTER[s] not in out:
             out.append(SERVICE_FILTER[s])
     return " ".join(out)
@@ -264,7 +272,7 @@ def campaign_card(c, prefix=""):
     shown = full if have_full else thumb if have_thumb else None
     link = full if have_full else shown
     shot = (f'<a class="camp__shot" href="{prefix}{link}" target="_blank" rel="noopener" data-cursor="Zoom">'
-            f'<img src="{prefix}{shown}" alt="Cold email dashboard screenshot: {esc(c["title"])}" loading="lazy"></a>') if shown else ""
+            f'<img src="{prefix}{shown}" alt="Cold email dashboard screenshot: {esc(c["title"])}" loading="lazy"></a>') if shown else '<p class="camp__noshot">Screenshot not available</p>'
     if c.get("isTable"):
         body = f'<p class="camp__note">{esc(c["note"])}</p>'
     else:
@@ -355,7 +363,7 @@ def case_page(i, c):
             f'\n          <div class="stat reveal"><div class="n">{esc(s["value"])}</div><div class="l">{esc(s["label"])}</div></div>' for s in c["stats"]) + "\n        </div>"
     built = "".join(f'\n          <li class="reveal"><span class="n">{k:02d}</span><b>{esc(fix(b["title"]))}</b><span>{esc(fix(b["body"]))}</span></li>'
                     for k, b in enumerate(c["built"], 1))
-    services = "".join(f'<a class="chip" href="{P}{SERVICE_PAGE[s][1]}">{SERVICE_PAGE[s][0]}</a>' for s in c.get("services", []) if s in SERVICE_PAGE)
+    services = "".join(f'<a class="chip" href="{P}{SERVICE_PAGE[s][1]}">{SERVICE_PAGE[s][0]}</a>' for s in services_of(c) if s in SERVICE_PAGE)
     services_html = f'\n        <p class="svc-proof reveal"><span class="label">Services</span>{services}</p>' if services else ""
     nxt = CASES[(i + 1) % len(CASES)]
     body = f'''
@@ -371,7 +379,7 @@ def case_page(i, c):
         </div>
       </header>
 
-      <figure class="cs-image container clip-reveal">
+      <figure class="cs-image container reveal">
         <img src="{P}{img(c["images"]["full"])}" alt="{esc(c["imageAlt"])}" width="1440" height="1080">
       </figure>
 
