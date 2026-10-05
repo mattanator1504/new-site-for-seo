@@ -12,5 +12,6 @@ Brand: **Renovo Studio** (logo: `assets/img/renovo-logo.png`). Keep the existing
 
 **Voice override:** Renovo Studio is an agency, so site copy uses **"we"**, not "I" — this overrides the "I, not we" rule in `voice.md`. Matthew Rissik can be named as the founder.
 
-Do not use the B2B cyber security SaaS case study ($2M → $7M ARR, 142 demos, 3.8x) on this site — it's an outbound result.
+Services (4): Web Design · SEO & Local SEO (technical audits + content live inside it) · GTM & Outbound (cold email + LinkedIn) · Full Growth System.
+The B2B cyber security SaaS case study ($2M → $7M ARR, 142 demos, 3.8x) is a Full Growth System result — use it there, never as a website/SEO result.
 The $7.2M figure may be used as "generated for clients, collectively".

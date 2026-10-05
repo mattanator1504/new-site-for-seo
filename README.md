@@ -10,8 +10,8 @@ python3 -m http.server 8000
 | File | Page |
 | --- | --- |
 | `index.html` | Home — hero, marquee, scroll-lit manifesto, stats, services, horizontal-scroll work, process, founder, CTA |
-| `services.html` | All services with anchors (`#web-design`, `#seo`, `#local-seo`, `#technical-seo`, `#conversion-copy`) + FAQ |
-| `work.html` | Live sites + more projects (logo covers, hover-scroll screenshots) |
+| `services.html` | Four services with anchors (`#web-design`, `#seo`, `#gtm-outbound`, `#full-growth-system`) + FAQ |
+| `work.html` | Lead gen case studies, websites, more projects (logo covers, hover-scroll screenshots) |
 | `blog.html` | Upcoming posts + newsletter |
 | `contact.html` | Contact form (accepts `?service=<slug>` to pre-select a service) |
 
