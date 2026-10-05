@@ -23,7 +23,18 @@ def minify(css):
     return css.strip()
 
 
+def lazy_images(doc):
+    """Lazy-load every image except the header logo and the homepage hero art (above the fold)."""
+    def sub(m):
+        tag = m.group(0)
+        if "loading=" in tag or "brand-logo" in tag or "data-depth=" in tag:
+            return tag
+        return tag[:4] + ' loading="lazy" decoding="async"' + tag[4:]
+    return re.sub(r"<img\b[^>]*>", sub, doc)
+
+
 def optimise(doc, prefix):
+    doc = lazy_images(doc)
     css = minify(open(CSS).read()).replace("url(../", f"url({prefix}assets/")
     doc = re.sub(r'\s*<link rel="preconnect" href="https://fonts\.(googleapis|gstatic)\.com"[^>]*>', "", doc)
     doc = re.sub(r'\s*<link href="https://fonts\.googleapis\.com/[^"]*" rel="stylesheet">', "", doc)

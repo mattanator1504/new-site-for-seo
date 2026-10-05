@@ -164,7 +164,7 @@ def check(path):
 
 
 def pages():
-    return sorted(f for f in glob.glob("*.html") + glob.glob("case-studies/*.html") + glob.glob("blog/*.html") + glob.glob("services/*.html") + glob.glob("for/*.html"))
+    return sorted([f for f in glob.glob("*.html") if f != "404.html"] + glob.glob("case-studies/*.html") + glob.glob("blog/*.html") + glob.glob("services/*.html") + glob.glob("for/*.html"))
 
 
 def main():

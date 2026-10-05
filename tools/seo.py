@@ -207,7 +207,7 @@ def make_og_default():
 
 def apply_all():
     make_og_default()
-    files = sorted(glob.glob(os.path.join(ROOT, "*.html")) + glob.glob(os.path.join(ROOT, "case-studies/*.html"))
+    files = sorted([f for f in glob.glob(os.path.join(ROOT, "*.html")) if not f.endswith("404.html")] + glob.glob(os.path.join(ROOT, "case-studies/*.html"))
                    + glob.glob(os.path.join(ROOT, "blog/*.html")) + glob.glob(os.path.join(ROOT, "services/*.html")))
     for f in files:
         apply_page(f)

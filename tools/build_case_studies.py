@@ -441,6 +441,38 @@ def replace_block(doc, name, content, fallback):
     return doc[:a] + block + doc[b:]
 
 
+def write_404():
+    """Not-found page: noindex, absolute asset paths (served for any missing URL), not in the sitemap."""
+    import perf
+    body = f'''
+  <main id="main">
+    <section class="page-hero" aria-labelledby="ph-title">
+      <div class="container">
+        <h1 class="display h-xl" id="ph-title"><span class="h1-kicker eyebrow">Page not found</span><span class="extrude">404</span></h1>
+        <p class="lead">This page has wandered off. (It happens to the best of us.) Here’s where you probably meant to go.</p>
+        <div class="hero-actions" style="justify-content:flex-start;margin-top:30px">
+          <a class="btn" href="/contact.html">Book a call {ARROW}</a>
+          <a class="btn btn--ghost" href="/services.html">Our services</a>
+          <a class="btn btn--ghost" href="/work.html">See the work</a>
+        </div>
+      </div>
+    </section>
+  </main>'''
+    page = f"""<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page not found | {BRAND}</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="/assets/img/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+""" + rel(HEADER, "/").replace('href="/./"', 'href="/"') + body + rel(FOOTER, "/")
+    page = perf.optimise(page, "/")
+    open("404.html", "w").write(page)
+
+
 def main():
     by_slug = {p["slug"]: p for p in CASES + CARDS}
     for e in EXTRAS:
@@ -494,6 +526,7 @@ def main():
     sm += "".join(f"  <url><loc>{SITE_URL}/{p}</loc><lastmod>{TODAY}</lastmod></url>\n" for p in pages) + "</urlset>\n"
     open("sitemap.xml", "w").write(sm)
     apply_seo()
+    write_404()
     print(f"built {len(CASES)} case studies, {len(order)} cards, {len(CAMPAIGNS)} campaigns")
 
 
