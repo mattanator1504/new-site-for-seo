@@ -1,0 +1,1473 @@
+{
+  "exportedFrom": "matthewrissik.com",
+  "exportedOn": "2026-10-05",
+  "caseStudies": [
+    {
+      "slug": "b2b-saas-growth-system",
+      "client": "B2B cyber security SaaS",
+      "category": "Lead Generation",
+      "tags": [
+        "B2B SaaS",
+        "Outbound",
+        "Funnel"
+      ],
+      "summary": "$2M to $7M a year in 9 months: buyer funnel, outbound positioning and demo booking.",
+      "imageAlt": "Illustrated cover for the B2B cyber security SaaS case study, showing servers, padlocks and a rising revenue chart",
+      "hasPage": true,
+      "title": "B2B SaaS Lead Generation Case Study: $2M to $7M ARR",
+      "metaDescription": "B2B SaaS lead generation case study: how a cyber security company went from $2M to $7M a year in 9 months with 142 enterprise demos booked. Book a call.",
+      "h1": "B2B SaaS lead generation case study: $2M to $7M a year in 9 months",
+      "primaryKeyword": "b2b saas lead generation case study",
+      "published": "2026-10-03",
+      "updated": "2026-10-03",
+      "year": "9 months",
+      "role": "Delivered as part of a team: funnel, outbound and sales process",
+      "services": [
+        "full-growth-system",
+        "outbound-lead-generation",
+        "web-design"
+      ],
+      "stats": [
+        {
+          "value": "$7.2M",
+          "label": "Annual recurring revenue"
+        },
+        {
+          "value": "250%",
+          "label": "Revenue growth in 9 months"
+        },
+        {
+          "value": "142",
+          "label": "Enterprise demos booked"
+        },
+        {
+          "value": "3.8x",
+          "label": "Pipeline velocity"
+        }
+      ],
+      "short": "A B2B cyber security SaaS company had a strong product, an empty pipeline and revenue stuck around $2M a year. We picked one niche, rebuilt the buyer funnel, rewrote the cold email positioning and automated demo booking. Nine months later: $7.2M in annual recurring revenue and 142 enterprise demos booked.",
+      "situation": [
+        "The company sold custom cyber security software to anyone who could afford the minimum yearly commitment: healthcare, finance, manufacturing and telecom. That put them up against more than 30,000 competitors.",
+        "Then the sales team was let go, the pipeline was close to empty, and revenue fell to roughly $2M a year. Agencies and consultants had been tried. The outbound copy was generic, it landed in spam, and the website didn’t explain to security buyers why this product was different."
+      ],
+      "built": [
+        {
+          "title": "One niche instead of four industries",
+          "body": "We tested the financial sector with around 2,000 targeted emails over two weeks. FinTech stood out, largely because of its cyber compliance needs, so that became the focus."
+        },
+        {
+          "title": "A buyer funnel for security people",
+          "body": "Clear messaging for CTOs, CIOs and security leads, with short case-study videos cut from client interviews. Those videos became the spearhead of every cold email."
+        },
+        {
+          "title": "An outbound engine",
+          "body": "Campaigns to mid-sized FinTech companies across North America and Europe, sending 300–450 emails a day, plus a separate campaign aimed at Fortune 500 FinTech decision-makers."
+        },
+        {
+          "title": "Automated demo booking and a written sales process",
+          "body": "Interested replies went straight onto senior calendars. After the first deals closed, the whole process from first reply to signed contract was documented so it could repeat."
+        }
+      ],
+      "happened": [
+        "Within a month of launching, the campaigns were booking 3–4 sales meetings a week. Adding case studies to the outreach gave a 5–7x lift in positive reply rate compared with sending without them.",
+        "Over 9 months, annual recurring revenue went from about $2M to $7.2M, a 250% increase, with 142 enterprise demos booked and deals as large as $210K. The team also ran an outbound search for a new Head of Sales, starting from a list of 363 candidates."
+      ],
+      "differently": "Honestly, the biggest lever wasn’t clever copy. It was picking a niche. Trying to be the best option for four industries meant being nobody’s first choice. If your pipeline is thin and your target market is “anyone who can pay,” that’s the first thing I’d look at.",
+      "images": {
+        "full": "images/projects/b2b-saas-growth-system.webp",
+        "card": "images/projects/b2b-saas-growth-system-card.webp"
+      },
+      "internalSourceNote": "Numbers from the published case study. The client is not named for confidentiality reasons."
+    },
+    {
+      "slug": "medspa-dr",
+      "client": "MedSpa DR",
+      "category": "Lead Generation",
+      "tags": [
+        "Med spa software",
+        "B2B",
+        "Cold email"
+      ],
+      "summary": "Cold email to med spa owners in three states: 51 qualified calls and $250K in pipeline in 60 days.",
+      "imageAlt": "Med Spa DR line-drawing face logo on a pale teal background",
+      "hasPage": true,
+      "title": "Med Spa Lead Generation Case Study: $250K Pipeline",
+      "metaDescription": "Med spa lead generation case study: cold email to med spa owners in Texas, Arizona and California booked 51 qualified calls and $250K in pipeline in 60 days.",
+      "h1": "Med spa lead generation case study: 51 calls and $250K in pipeline",
+      "primaryKeyword": "med spa lead generation case study",
+      "published": "2026-10-03",
+      "updated": "2026-10-03",
+      "year": "60 days",
+      "role": "Cold email campaign: lists, copy, follow-up and reporting",
+      "services": [
+        "outbound-lead-generation"
+      ],
+      "stats": [
+        {
+          "value": "51",
+          "label": "Qualified calls"
+        },
+        {
+          "value": "$250K",
+          "label": "Pipeline value"
+        },
+        {
+          "value": "60",
+          "label": "Days"
+        },
+        {
+          "value": "3",
+          "label": "States targeted"
+        }
+      ],
+      "short": "MedSpa DR sells an all-in-one CRM to medical spas: scheduling, client records, marketing automation and reporting. They wanted more med spa owners on sales calls in Texas, Arizona and California. A targeted cold email campaign booked 51 qualified calls and $250,000 in pipeline in 60 days.",
+      "situation": [
+        "MedSpa DR isn’t a med spa. It’s the software med spas run on, built by a team with over 20 years in the industry. The product was strong. The problem was getting in front of busy owners who don’t go looking for new software.",
+        "The goal was simple: qualified conversations with med spa decision-makers in three states, and a pipeline that looked like real money."
+      ],
+      "built": [
+        {
+          "title": "Segmented lists",
+          "body": "Med spa owners and managers in Texas, Arizona and California, focused on practices that would benefit most from better scheduling and client management."
+        },
+        {
+          "title": "Pain-first emails",
+          "body": "Copy about scheduling headaches, marketing that doesn’t bring people back and client retention, then how the platform fixes each one."
+        },
+        {
+          "title": "Follow-up with proof",
+          "body": "Follow-up emails that added case studies and feature walkthroughs for people who didn’t reply the first time."
+        },
+        {
+          "title": "Weekly tuning",
+          "body": "Open, reply and conversion numbers tracked, with messaging and targeting adjusted as the data came in."
+        }
+      ],
+      "happened": [
+        "Over 60 days, the campaign produced 51 qualified calls with med spa decision-makers.",
+        "Those conversations added up to $250,000 in potential deal value in the pipeline."
+      ],
+      "differently": "High-ticket buyers don’t want a feature list. They want to hear their own problem described better than they could describe it. That’s what the first email has to do.",
+      "images": {
+        "full": "images/projects/medspa-dr.webp",
+        "card": "images/projects/medspa-dr-card.webp"
+      },
+      "internalSourceNote": "Numbers from the published MedSpa DR case study."
+    },
+    {
+      "slug": "all-med-search",
+      "client": "All Med Search",
+      "category": "Lead Generation",
+      "tags": [
+        "Healthcare",
+        "Recruiting",
+        "Cold email"
+      ],
+      "summary": "Two cold email campaigns for a medical recruiter: 65 meetings from 60,000 emails.",
+      "imageAlt": "All Med Search logo on a coral background, cover for the medical recruiting cold email case study",
+      "hasPage": true,
+      "title": "Recruiting Cold Email Case Study: 65 Meetings Booked",
+      "metaDescription": "Recruiting cold email case study: two campaigns for a US medical staffing firm booked 65 meetings with nurses and healthcare facilities. Book a call.",
+      "h1": "Recruiting cold email case study: 65 meetings for a medical staffing firm",
+      "primaryKeyword": "recruiting cold email case study",
+      "published": "2026-10-03",
+      "updated": "2026-10-03",
+      "year": "3 months",
+      "role": "Cold email strategy, lists, copy and follow-up",
+      "services": [
+        "outbound-lead-generation"
+      ],
+      "stats": [
+        {
+          "value": "65",
+          "label": "Meetings booked"
+        },
+        {
+          "value": "45",
+          "label": "Nurse meetings (months 1–2)"
+        },
+        {
+          "value": "20",
+          "label": "Facility meetings (months 1–3)"
+        },
+        {
+          "value": "60,000",
+          "label": "Emails sent across both campaigns"
+        }
+      ],
+      "short": "All Med Search places healthcare professionals in US hospitals. They needed more candidates and more facility clients without leaning on ads or job boards. We ran two cold email campaigns, one to Canadian nurses open to moving and one to US healthcare decision-makers. Together they booked 65 meetings.",
+      "situation": [
+        "Recruiting has two sales problems at once. You need people to place, and you need places that want them. All Med Search wanted both: experienced nurses in Canada willing to relocate to the US, and US healthcare facilities that needed staff.",
+        "They wanted to do it through outbound, not by paying for more job board listings or advertising."
+      ],
+      "built": [
+        {
+          "title": "Two lists, two audiences",
+          "body": "Experienced Canadian nurses open to relocation, and decision-makers at US hospitals and medical centers."
+        },
+        {
+          "title": "Human, non-salesy sequences",
+          "body": "Short emails written for each audience’s actual worries, not a generic recruiting pitch."
+        },
+        {
+          "title": "A/B testing",
+          "body": "Subject lines, body copy and calls to action tested to improve replies and protect deliverability."
+        },
+        {
+          "title": "Follow-up sequences",
+          "body": "Several follow-up touches to turn first replies into booked meetings."
+        }
+      ],
+      "happened": [
+        "The nurse campaign sent 30,000 emails over months 1 and 2 and produced 45 meeting-ready leads.",
+        "The facility campaign sent 30,000 emails over months 1 to 3 and produced 20 meetings with healthcare decision-makers. That’s 65 meetings across the two campaigns."
+      ],
+      "differently": "The lesson I keep coming back to: one campaign can’t talk to two audiences. Nurses and hospital directors care about completely different things, so they got completely different emails.",
+      "images": {
+        "full": "images/projects/all-med-search.webp",
+        "card": "images/projects/all-med-search-card.webp"
+      },
+      "internalSourceNote": "Numbers from the published All Med Search case study."
+    },
+    {
+      "slug": "cj-stafford-construction",
+      "client": "CJ Stafford Construction",
+      "category": "Lead Generation",
+      "tags": [
+        "Construction",
+        "Outbound",
+        "Website"
+      ],
+      "summary": "Phase 1 outbound plus a rebuilt website: 25 new leads in 6 weeks.",
+      "imageAlt": "CJ Stafford Construction logo on a yellow background",
+      "hasPage": true,
+      "title": "Construction Lead Generation Case Study | Matthew Rissik",
+      "metaDescription": "Construction lead generation case study: a 6-week outbound campaign and a rebuilt website added 25 new leads to CJ Stafford’s pipeline. Book a call.",
+      "h1": "Construction lead generation: 25 new leads in 6 weeks",
+      "primaryKeyword": "construction lead generation",
+      "published": "2026-10-03",
+      "updated": "2026-10-03",
+      "year": "6 weeks (Phase 1)",
+      "role": "Outbound campaign and website rebuild",
+      "website": "https://cjstaffordconstruction.com/",
+      "services": [
+        "outbound-lead-generation",
+        "web-design",
+        "full-growth-system"
+      ],
+      "stats": [
+        {
+          "value": "25",
+          "label": "Leads in Phase 1"
+        },
+        {
+          "value": "6",
+          "label": "Weeks"
+        },
+        {
+          "value": "1",
+          "label": "New website"
+        }
+      ],
+      "short": "CJ Stafford Construction relied on word of mouth and wanted a pipeline it could predict. We ran a focused 6-week outbound campaign aimed at decision-makers who need construction work, and rebuilt the website so it backed up every email. Phase 1 added 25 new leads.",
+      "situation": [
+        "Referrals are lovely until they stop. CJ Stafford needed new project leads that didn’t depend on who happened to mention them this month.",
+        "There was a second problem: outbound sends people to your website, and the old one didn’t show the company’s work or credibility well enough to back up a cold email."
+      ],
+      "built": [
+        {
+          "title": "Narrow targeting",
+          "body": "Decision-makers likely to need construction services, with commercial property managers as a key audience. A specific buyer with a specific job, not anyone with a building."
+        },
+        {
+          "title": "A 6-week Phase 1",
+          "body": "A focused outreach cycle to test messaging and see how the market responded before scaling."
+        },
+        {
+          "title": "A new website",
+          "body": "Built to show CJ Stafford’s work, credibility and services, so prospects who clicked through found a reason to reply."
+        }
+      ],
+      "happened": [
+        "In six weeks, Phase 1 added 25 new leads to CJ Stafford’s pipeline.",
+        "The rebuilt site now supports every outbound touchpoint, which sets up later phases to scale."
+      ],
+      "differently": "Outbound and a credible website work better together. A great email that lands on a weak site is like a firm handshake followed by a mumble.",
+      "images": {
+        "full": "images/projects/cj-stafford-construction.webp",
+        "card": "images/projects/cj-stafford-construction-card.webp"
+      },
+      "internalSourceNote": "Numbers from the published CJ Stafford Construction case study."
+    },
+    {
+      "slug": "gabes-window-cleaning",
+      "client": "Gabe's Window Cleaning",
+      "category": "Lead Generation",
+      "tags": [
+        "Local service",
+        "Commercial",
+        "Outbound"
+      ],
+      "summary": "Outbound to Tucson property managers: about 20 quote-ready commercial leads in 6 weeks.",
+      "imageAlt": "Gabe's Spotless Window Cleaning logo on a green background",
+      "hasPage": true,
+      "title": "Window Cleaning Lead Generation Case Study | Matthew Rissik",
+      "metaDescription": "Window cleaning lead generation case study: outbound to Tucson property managers brought about 20 quote-ready commercial leads in 6 weeks. Book a call.",
+      "h1": "Window cleaning lead generation: 20 commercial leads in 6 weeks",
+      "primaryKeyword": "window cleaning lead generation",
+      "published": "2026-10-03",
+      "updated": "2026-10-03",
+      "year": "6 weeks",
+      "role": "Outbound campaign: list, copy, multi-channel follow-up",
+      "services": [
+        "outbound-lead-generation"
+      ],
+      "stats": [
+        {
+          "value": "~20",
+          "label": "Quote-ready commercial leads"
+        },
+        {
+          "value": "6",
+          "label": "Weeks"
+        },
+        {
+          "value": "72 hrs",
+          "label": "Average first contact to quote request"
+        }
+      ],
+      "short": "Gabe’s Window Cleaning in Tucson wanted steady commercial contracts instead of sporadic one-off jobs. We built a tight list of property and facility managers, wrote short benefit-led emails with one question, “Want a quick quote?”, and followed up by SMS and LinkedIn. Six weeks later: about 20 quote-ready leads.",
+      "situation": [
+        "Sporadic bookings are expensive for a cleaning crew. Routes don’t line up, teams sit idle, and planning next month is guesswork. Gabe wanted commercial clients on regular schedules: office blocks, retail centers and property managers.",
+        "Quality mattered more than volume. He wanted people ready to ask for a quote, not tire-kickers, and he didn’t want to burn money on broad advertising to find them."
+      ],
+      "built": [
+        {
+          "title": "A narrow commercial list",
+          "body": "Tucson property managers, building owners, facility managers and commercial real estate contacts: the people who control cleaning budgets."
+        },
+        {
+          "title": "One-question emails",
+          "body": "Direct, human copy about clearer windows, safer premises and better tenant impressions, ending with one simple ask: want a quick quote?"
+        },
+        {
+          "title": "Multi-channel follow-up",
+          "body": "Short SMS touches and LinkedIn messages for the warmest prospects, and warm calls for high-intent replies."
+        },
+        {
+          "title": "Clean sending",
+          "body": "Domain warm-up, list suppression and quick subject-line tests to keep replies coming and deliverability healthy."
+        }
+      ],
+      "happened": [
+        "The campaign ran for 6 weeks and handed Gabe roughly 20 quote-ready commercial leads, mostly property managers and commercial building contacts.",
+        "On average it took 72 hours from first contact to a quote request, and many asked for site visits or quotes within 48 to 72 hours."
+      ],
+      "differently": "Local service businesses often think outbound is only for software companies. It isn’t. A property manager with ten buildings is a better lead than a hundred homeowners, and you can email them.",
+      "images": {
+        "full": "images/projects/gabes-window-cleaning.webp",
+        "card": "images/projects/gabes-window-cleaning-card.webp"
+      },
+      "internalSourceNote": "Numbers from the published Gabe's Window Cleaning case study."
+    },
+    {
+      "slug": "monroy-sf-cleaning",
+      "client": "Monroy SF Cleaning",
+      "category": "Lead Generation",
+      "tags": [
+        "Local service",
+        "Cleaning",
+        "Outbound"
+      ],
+      "summary": "Cold email at scale plus SMS, LinkedIn and calls: 20 quote-ready leads in 8 weeks.",
+      "imageAlt": "Monroy SF Cleaning Services logo on a pale green background",
+      "hasPage": true,
+      "title": "Cleaning Company Lead Generation Case Study | Matthew Rissik",
+      "metaDescription": "Cleaning company lead generation case study: 50,000+ emails and multi-channel follow-up brought a San Francisco cleaner 20 quote-ready leads in 8 weeks.",
+      "h1": "Cleaning company lead generation: 20 quote-ready leads in 8 weeks",
+      "primaryKeyword": "cleaning company lead generation",
+      "published": "2026-10-03",
+      "updated": "2026-10-03",
+      "year": "8 weeks",
+      "role": "Outbound program: lists, copy, deliverability and follow-up",
+      "services": [
+        "outbound-lead-generation"
+      ],
+      "stats": [
+        {
+          "value": "20",
+          "label": "Quote-ready leads"
+        },
+        {
+          "value": "50,000+",
+          "label": "Targeted emails"
+        },
+        {
+          "value": "8",
+          "label": "Weeks"
+        },
+        {
+          "value": "3–4",
+          "label": "Follow-ups per prospect"
+        }
+      ],
+      "short": "Monroy SF Cleaning, a commercial and residential cleaner in San Francisco, relied on referrals and organic search. Both worked, slowly. We ran an outbound program with cold email at its core and SMS, LinkedIn and warm calls on top. In 8 weeks it delivered 20 quote-ready leads, without paid ads.",
+      "situation": [
+        "Referrals and search were bringing in work, but not fast enough and not predictably. Monroy wanted two kinds of client: property managers and facility directors at offices, retail spaces and multi-tenant buildings, and higher-value homeowners.",
+        "They wanted results in weeks, not the months SEO takes, and without the ongoing cost of paid advertising."
+      ],
+      "built": [
+        {
+          "title": "Two segments",
+          "body": "Separate prospect lists for commercial properties and premium residential clients across San Francisco."
+        },
+        {
+          "title": "Cold email at scale",
+          "body": "50,000+ targeted emails with short, conversational copy about cleanliness standards, compliance and tenant experience, and an easy way to ask for a quote."
+        },
+        {
+          "title": "Multi-touch follow-up",
+          "body": "SMS, LinkedIn and warm calls for engaged prospects, across 3–4 touchpoints each."
+        },
+        {
+          "title": "Deliverability first",
+          "body": "Dedicated sending domains, proper authentication, gradual warm-up and regular removal of bounces and non-responders."
+        }
+      ],
+      "happened": [
+        "Over 8 weeks, the program delivered 20 quote-ready leads to Monroy’s sales team.",
+        "“Quote-ready” meant they knew what Monroy offered, had a cleaning need and were ready for a detailed quote. Warm opportunities, not cold contacts."
+      ],
+      "differently": "People want a price before they want a conversation. Making “ask for a quote” the easiest possible reply did more work than any clever subject line.",
+      "images": {
+        "full": "images/projects/monroy-sf-cleaning.webp",
+        "card": "images/projects/monroy-sf-cleaning-card.webp"
+      },
+      "internalSourceNote": "Numbers from the published Monroy SF Cleaning case study. Individual results vary with market, offer and sales follow-up."
+    },
+    {
+      "slug": "pinnacle-real-estate",
+      "client": "Pinnacle Real Estate Group",
+      "category": "Lead Generation",
+      "tags": [
+        "Real estate",
+        "Outbound",
+        "LA County"
+      ],
+      "summary": "Targeted lead generation across LA County: 30+ vetted leads in 2 months, several closed.",
+      "imageAlt": "Pinnacle Real Estate Group logo on a pink background",
+      "hasPage": true,
+      "title": "Real Estate Lead Generation Case Study: LA County",
+      "metaDescription": "Real estate lead generation case study: a targeted LA County campaign delivered 30+ vetted buyer and seller leads in 2 months, several of which closed.",
+      "h1": "Real estate lead generation case study: 30+ vetted leads in LA County",
+      "primaryKeyword": "real estate lead generation case study",
+      "published": "2026-10-03",
+      "updated": "2026-10-03",
+      "year": "2 months",
+      "role": "Lead generation campaign and lead vetting",
+      "services": [
+        "outbound-lead-generation"
+      ],
+      "stats": [
+        {
+          "value": "30+",
+          "label": "Vetted leads"
+        },
+        {
+          "value": "2",
+          "label": "Months"
+        },
+        {
+          "value": "Multiple",
+          "label": "Closed transactions"
+        }
+      ],
+      "short": "Pinnacle Real Estate Group works with buyers and sellers across Los Angeles County. They wanted a pipeline that didn’t depend only on referrals and ads. We ran a targeted campaign across key LA County neighborhoods and vetted every lead before handoff. In two months: 30+ hot leads, several of which closed.",
+      "situation": [
+        "Real estate teams live and die by the pipeline. Pinnacle had referrals and some advertising, but wanted a source they could scale and count on month to month.",
+        "They also didn’t want volume for its own sake. Agents’ time is the expensive part, so every lead had to be worth a call."
+      ],
+      "built": [
+        {
+          "title": "Local market targeting",
+          "body": "Prospective buyers and sellers across key LA County neighborhoods."
+        },
+        {
+          "title": "Lead vetting",
+          "body": "Every lead qualified before handoff, so the team only spent time on serious prospects."
+        },
+        {
+          "title": "Steady delivery",
+          "body": "A consistent outreach cadence over the full period, so the pipeline stayed full instead of arriving in one burst."
+        }
+      ],
+      "happened": [
+        "Over 2 months, the campaign delivered 30+ vetted, hot leads to Pinnacle’s team.",
+        "Several of those leads converted into closed transactions, giving the team a lead source that sits alongside their referral network."
+      ],
+      "differently": "Vetting is the unglamorous part, and it’s the part agents notice. Ten serious leads beat fifty “just browsing” ones every time.",
+      "images": {
+        "full": "images/projects/pinnacle-real-estate.webp",
+        "card": "images/projects/pinnacle-real-estate-card.webp"
+      },
+      "internalSourceNote": "Numbers from the published Pinnacle Real Estate Group case study."
+    },
+    {
+      "slug": "mike-k-realtor",
+      "client": "Mike K Realtor",
+      "category": "Web Design & SEO",
+      "tags": [
+        "Real estate",
+        "Website",
+        "Lead generation"
+      ],
+      "summary": "A brand website and outbound for a new agent: about 60 hot leads and multiple closed deals.",
+      "imageAlt": "Mike K Realtor logo with Keller Williams Pasadena branding on a grey background",
+      "hasPage": true,
+      "title": "Realtor Website & Lead Generation Case Study",
+      "metaDescription": "Realtor website and lead generation case study: a new agent’s branded site and outbound produced about 60 hot leads and several closed deals.",
+      "h1": "Realtor website and lead generation for a brand-new agent",
+      "primaryKeyword": "realtor website and lead generation",
+      "published": "2026-10-03",
+      "updated": "2026-10-03",
+      "role": "Website design and build, outbound lead generation",
+      "website": "https://mikekrealtor.com/",
+      "services": [
+        "web-design",
+        "outbound-lead-generation",
+        "full-growth-system"
+      ],
+      "stats": [
+        {
+          "value": "~60",
+          "label": "Hot leads"
+        },
+        {
+          "value": "Multiple",
+          "label": "Closed deals"
+        },
+        {
+          "value": "1",
+          "label": "Branded website"
+        }
+      ],
+      "short": "Mike K left pharmacy to sell real estate. New agent, no track record, competitive market. We built a brand-forward website that turned his background into a reason to trust him, and ran outbound to buyers and sellers in his area. It produced about 60 hot leads and multiple closed deals.",
+      "situation": [
+        "A new agent has a chicken-and-egg problem. You need deals to look credible, and you need to look credible to get deals.",
+        "Mike needed three things at once: a steady flow of qualified buyer and seller leads, credibility without a long track record, and a professional site that reflected his brand."
+      ],
+      "built": [
+        {
+          "title": "A brand-forward website",
+          "body": "A clean, professional site built around Mike’s story, listings and value, with a home valuation tool, because the best lead magnet answers the question the seller is already asking."
+        },
+        {
+          "title": "Positioning his background",
+          "body": "A pharmacist is detail-oriented and trusted with important decisions. We made that the reason to call him, not something to hide."
+        },
+        {
+          "title": "Targeted outbound",
+          "body": "Outreach to prospective buyers and sellers in his market."
+        }
+      ],
+      "happened": [
+        "The campaign generated about 60 hot leads.",
+        "Multiple deals closed from that pipeline, and the site now works as Mike’s digital storefront."
+      ],
+      "differently": "A career change isn’t a weakness if you tell it well. Most new agents try to look like everyone else. Mike looked like Mike, and it helped.",
+      "images": {
+        "full": "images/projects/mike-k-realtor.webp",
+        "card": "images/projects/mike-k-realtor-card.webp"
+      },
+      "internalSourceNote": "Numbers from the published Mike K Realtor case study."
+    },
+    {
+      "slug": "silver-solutions",
+      "client": "Silver Solutions Logistics",
+      "category": "Web Design & SEO",
+      "tags": [
+        "Logistics",
+        "Website redesign",
+        "SEO"
+      ],
+      "summary": "A logistics website redesign that leads with what the company does best, with a simple quote request.",
+      "imageAlt": "Silver Solutions Logistics website homepage showing a fleet of trucks, displayed on a lilac background",
+      "hasPage": true,
+      "title": "Logistics Website Redesign Case Study | Matthew Rissik",
+      "metaDescription": "Logistics website redesign case study: how Silver Solutions got a clearer site, better navigation, SEO foundations and an easy quote request. Book a call.",
+      "h1": "Logistics website redesign for Silver Solutions",
+      "primaryKeyword": "logistics website redesign",
+      "published": "2026-10-03",
+      "updated": "2026-10-03",
+      "year": "2023",
+      "role": "Web design, content strategy and SEO",
+      "website": "https://silversolutionsintermodal.co.za/",
+      "services": [
+        "web-design",
+        "seo"
+      ],
+      "short": "Silver Solutions is a logistics company covering warehousing, road transport and project management, with 35 years of combined expertise. Its old website didn’t show any of that. I redesigned it to lead with impact, made the services easy to find, added SEO foundations and gave visitors a simple way to request a quote.",
+      "situation": [
+        "The company had decades of experience and a wide range of specialist services. The website undersold all of it. Visitors couldn’t quickly see what Silver Solutions did, who it did it for or why it was better than the next logistics company."
+      ],
+      "built": [
+        {
+          "title": "Lead with the impact",
+          "body": "I used the pyramid principle: key capabilities and achievements first, supporting detail after. Busy buyers get the answer before they get bored."
+        },
+        {
+          "title": "Clear structure",
+          "body": "A rebuilt site structure so each service and industry is easy to find, on desktop and phone."
+        },
+        {
+          "title": "Real visuals",
+          "body": "High-quality visuals of the actual facilities, equipment and logistics operations."
+        },
+        {
+          "title": "A streamlined quote request",
+          "body": "A simpler request form and clear calls to action on every service page, so ready buyers could act straight away."
+        },
+        {
+          "title": "SEO foundations",
+          "body": "Content written around the company’s services and industries, using SEO best practice from launch."
+        }
+      ],
+      "happened": [
+        "After launch, Silver Solutions saw more website traffic, longer visits and more inquiries and quote requests. The published case study doesn’t include exact figures, so I won’t invent any here."
+      ],
+      "differently": "Logistics buyers aren’t browsing for fun. They want to know if you can move their thing, where, and how to get a price. Every page now answers those three questions first.",
+      "images": {
+        "full": "images/projects/silver-solutions.webp",
+        "card": "images/projects/silver-solutions-card.webp"
+      },
+      "internalSourceNote": "From the published Silver Solutions case study. Results were reported qualitatively, without figures."
+    },
+    {
+      "slug": "fractional-ceo",
+      "client": "Fractional CEO",
+      "category": "Web Design & SEO",
+      "tags": [
+        "Consulting",
+        "Website",
+        "SEO"
+      ],
+      "summary": "A launch website and SEO plan for a new fractional executive firm.",
+      "imageAlt": "Fractional CEO website hero reading “Unlock executive expertise for your business” on a lavender background",
+      "hasPage": true,
+      "title": "Consulting Website Design & SEO Case Study | Matthew Rissik",
+      "metaDescription": "Consulting website design and SEO case study: a new fractional CEO firm launched with a site, keyword plan and analytics built to win its first inquiries.",
+      "h1": "Consulting website design and SEO for a new fractional CEO firm",
+      "primaryKeyword": "consulting website design",
+      "published": "2026-10-03",
+      "updated": "2026-10-03",
+      "year": "2024",
+      "role": "Website design and build, SEO and content strategy",
+      "website": "https://www.fractional-ceo.com/",
+      "services": [
+        "web-design",
+        "seo"
+      ],
+      "short": "Fractional CEO offers executive expertise on demand. It was a new business with no website and a competitive market. I built the site from scratch to explain the offer clearly and look the part, set up an SEO and content plan for the fractional executive niche, and put analytics in from day one.",
+      "situation": [
+        "New consulting firms have a credibility gap. Buyers are hiring senior judgement, so the website has to feel senior before anyone books a call.",
+        "Fractional CEO needed a site that explained a fairly new idea in plain language, plus a way to be found by people searching for it."
+      ],
+      "built": [
+        {
+          "title": "A website built from scratch",
+          "body": "A responsive site presenting the mission, services and what makes the firm different, designed for professionalism and authority."
+        },
+        {
+          "title": "Niche keyword research",
+          "body": "An SEO strategy built around how people search for fractional executive leadership."
+        },
+        {
+          "title": "A content plan",
+          "body": "Articles and success stories that show thought leadership, so the site keeps earning traffic after launch."
+        },
+        {
+          "title": "Analytics at launch",
+          "body": "Tracking for traffic sources, engagement and conversions from the first day live."
+        }
+      ],
+      "happened": [
+        "In the first few months after launch, traffic grew, a good share of visitors came from organic search, and the first inquiries arrived. The case study reports this without exact figures, so I’ve left them out."
+      ],
+      "differently": "When the offer is new, the website’s first job is explaining it. Fancy can wait. If a visitor can’t say what you do after ten seconds, they won’t book a call to find out.",
+      "images": {
+        "full": "images/projects/fractional-ceo.webp",
+        "card": "images/projects/fractional-ceo-card.webp"
+      },
+      "internalSourceNote": "From the published Fractional CEO case study. Results were reported qualitatively, without figures."
+    },
+    {
+      "slug": "tengy",
+      "client": "Tengy",
+      "category": "UX/UI & Product Design",
+      "tags": [
+        "Mobile app",
+        "Events",
+        "Product design"
+      ],
+      "summary": "An event catering app: order from your seat, pay cashless, skip the queue.",
+      "imageAlt": "Tengy event catering app screens showing vendor menus and order tracking on an orange background",
+      "hasPage": true,
+      "title": "Event Ordering App UX/UI Design Case Study | Matthew Rissik",
+      "metaDescription": "Event ordering app UX/UI case study: designing Tengy, which lets festival and concert goers order food from their seats, pay cashless and skip the queue.",
+      "h1": "Event ordering app UX/UI design: Tengy",
+      "primaryKeyword": "event ordering app ux design",
+      "published": "2026-10-03",
+      "updated": "2026-10-03",
+      "year": "2023–2025",
+      "role": "UX/UI designer: product design, design system and strategic input",
+      "website": "https://www.tengy.co.za/",
+      "services": [],
+      "short": "Tengy set out to fix the worst part of big events: the food and drink queue. As the UX/UI designer, I designed an app that lets attendees order from their seats and pay cashless, plus a real-time dashboard for vendors to manage orders. My role grew into product design and strategy along the way.",
+      "situation": [
+        "At concerts and festivals, queues for food and drinks eat into the event people paid for, and vendors lose sales to the people who give up waiting.",
+        "The challenge was a smooth ordering flow for attendees and a dashboard vendors could run in a loud, busy, chaotic environment, without ignoring the technical and business constraints."
+      ],
+      "built": [
+        {
+          "title": "Remote ordering",
+          "body": "Attendees order straight from their seats, so nobody has to choose between the headline act and a burger."
+        },
+        {
+          "title": "Cashless payments",
+          "body": "A secure, quick payment flow inside the app."
+        },
+        {
+          "title": "A real-time vendor dashboard",
+          "body": "Order management for vendors, built to cut wait times and keep service quality up during the rush."
+        },
+        {
+          "title": "A design system",
+          "body": "Shared components and task flows so the attendee app and vendor tools stay consistent as the product grows."
+        }
+      ],
+      "happened": [
+        "The work covered task flows, system architecture, initial designs and the design system for the attendee app and vendor dashboard."
+      ],
+      "differently": "Designing for an event is designing for distraction. People are tipsy, the music’s loud and the battery is at 9%. Every extra tap is a sale lost to the queue you were trying to remove.",
+      "images": {
+        "full": "images/projects/tengy.webp",
+        "card": "images/projects/tengy-card.webp"
+      },
+      "internalSourceNote": "From the published Tengy case study."
+    },
+    {
+      "slug": "kago-yama",
+      "client": "Kago Yama",
+      "category": "UX/UI & Product Design",
+      "tags": [
+        "Agritech",
+        "Mobile app",
+        "Prototype"
+      ],
+      "summary": "A 25-screen farm management and marketplace app prototype for small-scale farmers.",
+      "imageAlt": "Kago Yama farming app screens showing crop photos and a welcome screen on a bright green background",
+      "hasPage": true,
+      "title": "Farming App UX/UI Design Case Study: Kago Yama",
+      "metaDescription": "Farming app UX/UI design case study: a 25-screen prototype helping small farmers manage plots, spot crop issues and sell produce, later used by a real farm.",
+      "h1": "Farming app UX/UI design: Kago Yama",
+      "primaryKeyword": "farming app ux design",
+      "published": "2026-10-03",
+      "updated": "2026-10-03",
+      "year": "2022",
+      "role": "UX/UI design",
+      "services": [],
+      "stats": [
+        {
+          "value": "~25",
+          "label": "Prototype screens"
+        },
+        {
+          "value": "3",
+          "label": "Review rounds"
+        },
+        {
+          "value": "<5",
+          "label": "Taps from plot to sale (design goal)"
+        }
+      ],
+      "short": "Kago Yama is a farming app concept for smallholder farmers around Limpopo: manage plots, spot crop problems early and sell directly to buyers. I designed about 25 screens in Figma, from onboarding to a mini marketplace. It stayed a prototype, until a real farm adopted the wireframes in 2025.",
+      "situation": [
+        "Smallholder farmers in Limpopo face unpredictable crop health with no easy way to spot pests early, operations tracked on paper, and buyers who are often hours away with no way to book digitally."
+      ],
+      "built": [
+        {
+          "title": "Farm profile",
+          "body": "Sign-up with plot details, soil type and contact info."
+        },
+        {
+          "title": "Daily tasks",
+          "body": "A checklist tracking planting, spraying and harvest."
+        },
+        {
+          "title": "Crop scanner",
+          "body": "Upload a photo to flag common pests or diseases, shown as a rule-based demo."
+        },
+        {
+          "title": "Marketplace and community",
+          "body": "Buy supplies, list produce for local buyers, and share tips in a community feed that rewards activity."
+        }
+      ],
+      "happened": [
+        "Every flow was built in Figma with clickable hotspots and sample data from regional crop guides, then refined over three review rounds. The goal: a farmer gets from “plot to sale” in under five taps.",
+        "In 2025, a real Kago Yama farm in Limpopo used the wireframes as a blueprint for its own digital record-keeping."
+      ],
+      "differently": "Mapping every flow end to end, before any code, showed which features actually mattered: photo diagnostics, clear task reminders and a simple produce listing. The rest was nice to have.",
+      "images": {
+        "full": "images/projects/kago-yama.webp",
+        "card": "images/projects/kago-yama-card.webp"
+      },
+      "internalSourceNote": "From the published Kago Yama case study."
+    },
+    {
+      "slug": "megalit-utility-app",
+      "client": "MegaLit",
+      "category": "UX/UI & Product Design",
+      "tags": [
+        "Utilities",
+        "Mobile + web app",
+        "Accessibility"
+      ],
+      "summary": "Real-time water meter readings and simple bill payments for Johannesburg residents.",
+      "imageAlt": "MegaLit utility app screens with a usage donut chart and assistant screen on a blue background",
+      "hasPage": true,
+      "title": "Utility App UX/UI Design Case Study: MegaLit",
+      "metaDescription": "Utility app UX/UI design case study: MegaLit, a water meter and bill payment app for Johannesburg residents, designed for every level of tech skill.",
+      "h1": "Utility app UX/UI design: MegaLit",
+      "primaryKeyword": "utility app ux design",
+      "published": "2026-10-03",
+      "updated": "2026-10-03",
+      "year": "2021–2022",
+      "role": "Lead UX/UI designer",
+      "services": [],
+      "short": "MegaLit was a utility app for Johannesburg residents tired of inaccurate water meter readings and painful bill payments. As lead UX/UI designer, I designed real-time meter readings, simple in-app payments and usage analytics, built to work for people with any level of tech confidence. It didn’t reach full launch.",
+      "situation": [
+        "Residents dealt with inaccurate and delayed water meter readings, which led to billing disputes, and a payment process clunky enough to put people off paying on time.",
+        "Any fix also had to work for people with limited tech experience, not just the confident app users."
+      ],
+      "built": [
+        {
+          "title": "Real-time readings",
+          "body": "Up-to-date meter readings to replace delayed manual ones."
+        },
+        {
+          "title": "Simple bill payment",
+          "body": "View and pay bills inside the app through a secure payment gateway."
+        },
+        {
+          "title": "Usage analytics",
+          "body": "Consumption over time, so residents could see and manage their usage."
+        },
+        {
+          "title": "Inclusive by design",
+          "body": "An accessible interface for every level of digital skill, available as both a mobile app and a web app."
+        }
+      ],
+      "happened": [
+        "The work covered user research, task flows, information architecture, wireframes and final designs. The app didn’t reach full launch."
+      ],
+      "differently": "Designing for people who don’t trust the system yet means showing your working. A number on a bill is a dispute. A number with a reading history behind it is an answer.",
+      "images": {
+        "full": "images/projects/megalit-utility-app.webp",
+        "card": "images/projects/megalit-utility-app-card.webp"
+      },
+      "internalSourceNote": "From the published MegaLit case study."
+    },
+    {
+      "slug": "hlomo",
+      "client": "Hlomo",
+      "category": "UX/UI & Product Design",
+      "tags": [
+        "Safety",
+        "Mobile app",
+        "Concept"
+      ],
+      "summary": "A one-tap community SOS app concept for South Africa, designed to work under stress.",
+      "imageAlt": "Hlomo emergency app screens showing an emergency circle of contacts on a yellow background",
+      "hasPage": true,
+      "title": "Emergency App UX/UI Design Case Study: Hlomo",
+      "metaDescription": "Emergency app UX/UI design case study: Hlomo, a one-tap SOS concept that alerts neighbors and responders at once, designed to stay calm and clear in a crisis.",
+      "h1": "Emergency app UX/UI design: Hlomo",
+      "primaryKeyword": "emergency app ux design",
+      "published": "2026-10-03",
+      "updated": "2026-10-03",
+      "year": "2022",
+      "role": "Co-founder, strategist, UX/UI designer and front-end developer",
+      "services": [],
+      "short": "Hlomo was a concept to rethink emergency response in South Africa using trusted community networks. Over seven months at Sammi Studio, I co-founded it and handled strategy, UX/UI design and front-end development. The idea: one tap alerts neighbors and professional responders at the same time, through a calm, simple interface.",
+      "situation": [
+        "Calling for help shouldn’t need a manual. The existing call center system is hard to navigate in a high-stress moment.",
+        "Vulnerable groups, including older people, refugees and people with disabilities, often struggle with jargon or poor network coverage. And people need to trust that an SOS will actually reach someone, fast."
+      ],
+      "built": [
+        {
+          "title": "A single-tap SOS",
+          "body": "A bold button that works offline and confirms clearly once the alert is sent."
+        },
+        {
+          "title": "An emergency circle",
+          "body": "Pre-selected trusted contacts and organizations, set up before you ever need them."
+        },
+        {
+          "title": "Dual notifications",
+          "body": "Neighbors and responders alerted together, with clear icons and color cues."
+        },
+        {
+          "title": "Cash and cashless options",
+          "body": "So anyone can respond, whatever payment method they use."
+        }
+      ],
+      "happened": [
+        "The concept came from secondary research and empathy mapping, then went into Figma designs. It was never tested with real users, and I’m upfront about that."
+      ],
+      "differently": "When someone is panicking, fewer taps and clear feedback beat any clever feature. Offline fallbacks and retry cues aren’t extras. A calm palette and short words matter more than you’d think.",
+      "images": {
+        "full": "images/projects/hlomo.webp",
+        "card": "images/projects/hlomo-card.webp"
+      },
+      "internalSourceNote": "From the published Hlomo case study."
+    },
+    {
+      "slug": "dress-me-up",
+      "client": "Dress Me Up",
+      "category": "UX/UI & Product Design",
+      "tags": [
+        "Fashion tech",
+        "Mobile app",
+        "Prototype"
+      ],
+      "summary": "An AI fashion app prototype with a 60-second style quiz and in-app tailor chat.",
+      "imageAlt": "Dress Me Up fashion app screens showing outfit suggestions on a slate blue background",
+      "hasPage": true,
+      "title": "Fashion App UX/UI Design Case Study: Dress Me Up",
+      "metaDescription": "Fashion app UX/UI design case study: a 16-week AI outfit and tailor-chat prototype, backed by 100 survey responses and 8 interviews.",
+      "h1": "Fashion app UX/UI design: Dress Me Up",
+      "primaryKeyword": "fashion app ux design",
+      "published": "2026-10-03",
+      "updated": "2026-10-03",
+      "year": "2020",
+      "role": "UX/UI design and research (16-week university project)",
+      "services": [],
+      "stats": [
+        {
+          "value": "100",
+          "label": "Survey responses"
+        },
+        {
+          "value": "8",
+          "label": "Tailor and designer interviews"
+        },
+        {
+          "value": "78%",
+          "label": "Would pay extra for tailored suggestions"
+        },
+        {
+          "value": "16",
+          "label": "Weeks"
+        }
+      ],
+      "short": "Dress Me Up was a 16-week project in my business degree: a fashion app that suggests outfits that fit your style and lets you chat directly with tailors to adjust them. We researched with real shoppers and tailors, then built a prototype that made a simulated AI feel personal. It never launched.",
+      "situation": [
+        "Online clothes shopping means endless scrolling, decision fatigue and settling for “good enough.” Broad filters and “if you like X” suggestions weren’t cutting it, and nobody offered tailored advice plus an easy route to custom fittings.",
+        "We had 16 weeks, no real AI backend, and two very different users to design for: shoppers who want inspiration, and tailors who want clear custom orders."
+      ],
+      "built": [
+        {
+          "title": "A 60-second style quiz",
+          "body": "Visuals and sliders so people could show their taste in under a minute."
+        },
+        {
+          "title": "A look board demo",
+          "body": "A rule-based demo showing how the app could narrow hundreds of items into a short, curated selection."
+        },
+        {
+          "title": "In-app designer chat",
+          "body": "Ask for a different lining, share measurements and see mock-up previews, without email back-and-forth."
+        }
+      ],
+      "happened": [
+        "Research came first: 100 survey responses from adults who shop for fashion online, 8 interviews with independent tailors and designers, and an audit of 5 competing apps.",
+        "78% of respondents said they’d pay extra for suggestions that felt made for them. Every tailor wanted a simple intake form and a chat window. Shoppers gave up after three clicks if nothing spoke to them. The prototype was designed around those three findings."
+      ],
+      "differently": "Real research plus a lean prototype shows you the hard problems before anyone writes production code. It also proved a good story can make a fake AI feel surprisingly real.",
+      "images": {
+        "full": "images/projects/dress-me-up.webp",
+        "card": "images/projects/dress-me-up-card.webp"
+      },
+      "internalSourceNote": "From the published Dress Me Up case study."
+    },
+    {
+      "slug": "syncd",
+      "client": "Sync'd",
+      "category": "UX/UI & Product Design",
+      "tags": [
+        "Creative community",
+        "Web platform",
+        "Product"
+      ],
+      "summary": "A web hub for South Africa’s emerging creatives: read, listen, connect.",
+      "imageAlt": "Sync'd logo in pink on a purple background",
+      "hasPage": true,
+      "title": "Community Platform UX Design Case Study: Sync'd",
+      "metaDescription": "Community platform UX design case study: Sync'd, a web hub where South Africa’s emerging artists, writers and podcasters get seen and meet each other.",
+      "h1": "Community platform UX design: Sync'd",
+      "primaryKeyword": "community platform ux design",
+      "published": "2026-10-03",
+      "updated": "2026-10-03",
+      "year": "2021–2022",
+      "role": "Co-founder and product lead: UX/UI, web design, business planning and operations",
+      "services": [],
+      "short": "Sync'd was a passion project: a digital hub where South Africa’s emerging artists, writers and podcasters could show their work and meet each other. As co-founder and product lead, I shaped everything from the editorial direction to the UX. When the app idea proved too heavy, we moved to a web-first platform built on three pillars: Read, Listen, Connect.",
+      "situation": [
+        "There was no shortage of talent. There was a shortage of attention. Established names dominated galleries, airtime and search results, and new voices struggled to find an audience or collaborators."
+      ],
+      "built": [
+        {
+          "title": "Read",
+          "body": "A magazine-style layout that puts artwork front and center, without distractions."
+        },
+        {
+          "title": "Listen",
+          "body": "A podcast page with one-click playback and short interviews tagged by discipline and location."
+        },
+        {
+          "title": "Connect",
+          "body": "A networking event flow to RSVP, swap details and chat in small themed breakout rooms that opened 15 minutes before each event."
+        },
+        {
+          "title": "Curated spotlight",
+          "body": "A rotating Artist of the Week banner that brought in applications and page views for new talent."
+        }
+      ],
+      "happened": [
+        "Early feedback from creative Slack groups and social comments pointed to two needs: visibility (work front and center, not buried in a feed) and community (low-pressure ways to meet peers). The platform was built around both."
+      ],
+      "differently": "A platform’s power isn’t in having more features. It’s in solving the right problems simply. Three pillars beat thirty features.",
+      "images": {
+        "full": "images/projects/syncd.webp",
+        "card": "images/projects/syncd-card.webp"
+      },
+      "internalSourceNote": "From the published Sync'd case study."
+    }
+  ],
+  "projectCards": [
+    {
+      "slug": "level-up-digital",
+      "client": "Level Up Digital",
+      "category": "Lead Generation",
+      "tags": [
+        "Agency",
+        "Outbound"
+      ],
+      "summary": "Agency partner lead pipeline setup targeting marketing decision-makers.",
+      "imageAlt": "Level Up Digital logo on a light blue background",
+      "hasPage": false,
+      "images": {
+        "full": "images/projects/level-up-digital.webp",
+        "card": "images/projects/level-up-digital-card.webp"
+      }
+    },
+    {
+      "slug": "arvio-capital",
+      "client": "Arvio Capital",
+      "category": "Lead Generation",
+      "tags": [
+        "Finance",
+        "Capital advisory"
+      ],
+      "summary": "Deal flow outreach for private equity and capital advisory.",
+      "imageAlt": "Arvio Capital logo on a sage green background",
+      "hasPage": false,
+      "images": {
+        "full": "images/projects/arvio-capital.webp",
+        "card": "images/projects/arvio-capital-card.webp"
+      }
+    },
+    {
+      "slug": "midnight-owl-group",
+      "client": "Midnight Owl Group",
+      "category": "Lead Generation",
+      "tags": [
+        "Outbound",
+        "B2B"
+      ],
+      "summary": "Automated B2B pipeline generation and email warm-up infrastructure.",
+      "imageAlt": "Midnight Owl Group owl logo on a purple background",
+      "hasPage": false,
+      "images": {
+        "full": "images/projects/midnight-owl-group.webp",
+        "card": "images/projects/midnight-owl-group-card.webp"
+      }
+    },
+    {
+      "slug": "ramjee-aesthetics",
+      "client": "Ramjee Aesthetics",
+      "category": "Web Design & SEO",
+      "tags": [
+        "Clinic",
+        "Website"
+      ],
+      "summary": "Medical aesthetics clinic website with online booking.",
+      "imageAlt": "Ramjee Aesthetics clinic website homepage on a pale teal background",
+      "hasPage": false,
+      "images": {
+        "full": "images/projects/ramjee-aesthetics.webp",
+        "card": "images/projects/ramjee-aesthetics-card.webp"
+      }
+    },
+    {
+      "slug": "zc-ventures",
+      "client": "ZC Ventures",
+      "category": "UX/UI & Product Design",
+      "tags": [
+        "Fintech",
+        "Mobile app"
+      ],
+      "summary": "Fintech portfolio tracker and investment management mobile app.",
+      "imageAlt": "ZC Ventures mobile app screens on a yellow background",
+      "hasPage": false,
+      "images": {
+        "full": "images/projects/zc-ventures.webp",
+        "card": "images/projects/zc-ventures-card.webp"
+      }
+    },
+    {
+      "slug": "camgo",
+      "client": "CamGo",
+      "category": "UX/UI & Product Design",
+      "tags": [
+        "Creator economy",
+        "Video app"
+      ],
+      "summary": "Live streaming and video creator interface prototype.",
+      "imageAlt": "CamGo app screens showing a map-based booking flow on an orange background",
+      "hasPage": false,
+      "images": {
+        "full": "images/projects/camgo.webp",
+        "card": "images/projects/camgo-card.webp"
+      }
+    },
+    {
+      "slug": "karpel-associates",
+      "client": "Karpel Associates",
+      "category": "Recent work",
+      "tags": [
+        "Executive search"
+      ],
+      "summary": "",
+      "imageAlt": "Karpel Associates Executive Search logo on a mint green background",
+      "hasPage": false,
+      "images": {
+        "full": "images/projects/karpel-associates.webp",
+        "card": "images/projects/karpel-associates-card.webp"
+      }
+    },
+    {
+      "slug": "cape-town-dentist",
+      "client": "Cape Town Dentist",
+      "category": "Recent work",
+      "tags": [
+        "Dental clinic"
+      ],
+      "summary": "",
+      "imageAlt": "Emergency dentist website homepage for a Cape Town dental practice on a green background",
+      "hasPage": false,
+      "images": {
+        "full": "images/projects/cape-town-dentist.webp",
+        "card": "images/projects/cape-town-dentist-card.webp"
+      }
+    },
+    {
+      "slug": "polish-and-prose",
+      "client": "Polish & Prose",
+      "category": "Recent work",
+      "tags": [
+        "Brand"
+      ],
+      "summary": "",
+      "imageAlt": "Polish and Prose logo on a beige background",
+      "hasPage": false,
+      "images": {
+        "full": "images/projects/polish-and-prose.webp",
+        "card": "images/projects/polish-and-prose-card.webp"
+      }
+    },
+    {
+      "slug": "lloyds-global-logistics",
+      "client": "Lloyd's Global Logistics",
+      "category": "Recent work",
+      "tags": [
+        "Logistics"
+      ],
+      "summary": "",
+      "imageAlt": "Lloyd's Global Logistics circular logo on a sky blue background",
+      "hasPage": false,
+      "images": {
+        "full": "images/projects/lloyds-global-logistics.webp",
+        "card": "images/projects/lloyds-global-logistics-card.webp"
+      }
+    },
+    {
+      "slug": "medspadr-skin-advisory",
+      "client": "MedSpaDR Skin Advisory",
+      "category": "Recent work",
+      "tags": [
+        "Med spa"
+      ],
+      "summary": "",
+      "imageAlt": "MedSpaDR Skin Advisory white line-drawing face logo on a black background",
+      "hasPage": false,
+      "images": {
+        "full": "images/projects/medspadr-skin-advisory.webp",
+        "card": "images/projects/medspadr-skin-advisory-card.webp"
+      }
+    }
+  ],
+  "campaigns": [
+    {
+      "slug": "all-med-search-nurses-canada",
+      "title": "All Med Search: nurses in Canada",
+      "sent": "5,469",
+      "replies": "75",
+      "replyRate": "1.40%",
+      "positive": "36",
+      "positiveRate": "48%",
+      "images": {
+        "full": "images/campaigns/all-med-search-nurses-canada.webp",
+        "thumb": "images/campaigns/all-med-search-nurses-canada-thumb.webp"
+      }
+    },
+    {
+      "slug": "commercial-cleaning-b",
+      "title": "Commercial cleaning",
+      "sent": "29,017",
+      "replies": "150",
+      "replyRate": "1.30%",
+      "positive": "53",
+      "positiveRate": "35.33%",
+      "images": {
+        "full": "images/campaigns/commercial-cleaning-b.webp",
+        "thumb": "images/campaigns/commercial-cleaning-b-thumb.webp"
+      }
+    },
+    {
+      "slug": "commercial-cleaning-a",
+      "title": "Commercial cleaning (second send)",
+      "sent": "13,261",
+      "replies": "95",
+      "replyRate": "1.35%",
+      "positive": "32",
+      "positiveRate": "33.68%",
+      "images": {
+        "full": "images/campaigns/commercial-cleaning-a.webp",
+        "thumb": "images/campaigns/commercial-cleaning-a-thumb.webp"
+      }
+    },
+    {
+      "slug": "commercial-cleaning-outlook",
+      "title": "Commercial cleaning, Outlook inboxes",
+      "sent": "26,478",
+      "replies": "94",
+      "replyRate": "1.33%",
+      "positive": "25",
+      "positiveRate": "26.60%",
+      "images": {
+        "full": "images/campaigns/commercial-cleaning-outlook.webp",
+        "thumb": "images/campaigns/commercial-cleaning-outlook-thumb.webp"
+      }
+    },
+    {
+      "slug": "agencies-google-only",
+      "title": "Agencies, Google inboxes only",
+      "sent": "2,520",
+      "replies": "20",
+      "replyRate": "1.40%",
+      "positive": "5",
+      "positiveRate": "25%",
+      "images": {
+        "full": "images/campaigns/agencies-google-only.webp",
+        "thumb": "images/campaigns/agencies-google-only-thumb.webp"
+      }
+    },
+    {
+      "slug": "agencies-new-script",
+      "title": "Agencies, new script test",
+      "sent": "3,296",
+      "replies": "21",
+      "replyRate": "0.64%",
+      "positive": "5",
+      "positiveRate": "23.81%",
+      "images": {
+        "full": "images/campaigns/agencies-new-script.webp",
+        "thumb": "images/campaigns/agencies-new-script-thumb.webp"
+      }
+    },
+    {
+      "slug": "med-spa-dr-copy",
+      "title": "MedSpa DR, variant",
+      "sent": "2,174",
+      "replies": "38",
+      "replyRate": "2.55%",
+      "positive": "9",
+      "positiveRate": "23.68%",
+      "images": {
+        "full": "images/campaigns/med-spa-dr-copy.webp",
+        "thumb": "images/campaigns/med-spa-dr-copy-thumb.webp"
+      }
+    },
+    {
+      "slug": "commercial-december-google",
+      "title": "Commercial, December (Google + others)",
+      "sent": "18,002",
+      "replies": "134",
+      "replyRate": "1.94%",
+      "positive": "28",
+      "positiveRate": "20.89%",
+      "images": {
+        "full": "images/campaigns/commercial-december-google.webp",
+        "thumb": "images/campaigns/commercial-december-google-thumb.webp"
+      }
+    },
+    {
+      "slug": "arvio-capital-feb-2025",
+      "title": "Arvio Capital, capital advisory",
+      "sent": "30,693",
+      "replies": "233",
+      "replyRate": "1.64%",
+      "positive": "42",
+      "positiveRate": "18.03%",
+      "images": {
+        "full": "images/campaigns/arvio-capital-feb-2025.webp",
+        "thumb": "images/campaigns/arvio-capital-feb-2025-thumb.webp"
+      }
+    },
+    {
+      "slug": "med-spa-dr-non-personalised-b",
+      "title": "MedSpa DR, non-personalised",
+      "sent": "9,281",
+      "replies": "168",
+      "replyRate": "4.84%",
+      "positive": "27",
+      "positiveRate": "16.07%",
+      "images": {
+        "full": "images/campaigns/med-spa-dr-non-personalised-b.webp",
+        "thumb": "images/campaigns/med-spa-dr-non-personalised-b-thumb.webp"
+      }
+    },
+    {
+      "slug": "med-spa-dr-non-personalised-a",
+      "title": "MedSpa DR, non-personalised (round 2)",
+      "sent": "27,066",
+      "replies": "264",
+      "replyRate": "1.84%",
+      "positive": "42",
+      "positiveRate": "15.91%",
+      "images": {
+        "full": "images/campaigns/med-spa-dr-non-personalised-a.webp",
+        "thumb": "images/campaigns/med-spa-dr-non-personalised-a-thumb.webp"
+      }
+    },
+    {
+      "slug": "midnight-owl-lead-gen-v1",
+      "title": "Midnight Owl lead gen v1",
+      "sent": "16,580",
+      "replies": "108",
+      "replyRate": "1.84%",
+      "positive": "17",
+      "positiveRate": "15.74%",
+      "images": {
+        "full": "images/campaigns/midnight-owl-lead-gen-v1.webp",
+        "thumb": "images/campaigns/midnight-owl-lead-gen-v1-thumb.webp"
+      }
+    },
+    {
+      "slug": "midnight-owl-lead-gen-v2",
+      "title": "Midnight Owl lead gen v2",
+      "sent": "10,646",
+      "replies": "39",
+      "replyRate": "0.70%",
+      "positive": "6",
+      "positiveRate": "15.38%",
+      "images": {
+        "full": "images/campaigns/midnight-owl-lead-gen-v2.webp",
+        "thumb": "images/campaigns/midnight-owl-lead-gen-v2-thumb.webp"
+      }
+    },
+    {
+      "slug": "marketing-agencies-1-july",
+      "title": "Marketing agencies, campaign 1",
+      "sent": "22,578",
+      "replies": "250",
+      "replyRate": "3.24%",
+      "positive": "34",
+      "positiveRate": "13.60%",
+      "images": {
+        "full": "images/campaigns/marketing-agencies-1-july.webp",
+        "thumb": "images/campaigns/marketing-agencies-1-july-thumb.webp"
+      }
+    },
+    {
+      "slug": "all-med-search-campaign-1",
+      "title": "All Med Search, campaign 1",
+      "sent": "6,788",
+      "replies": "134",
+      "replyRate": "4.23%",
+      "positive": "9",
+      "positiveRate": "6.72%",
+      "images": {
+        "full": "images/campaigns/all-med-search-campaign-1.webp",
+        "thumb": "images/campaigns/all-med-search-campaign-1-thumb.webp"
+      }
+    },
+    {
+      "slug": "gabes-window-cleaning-3",
+      "title": "Gabe's Window Cleaning, campaign 3",
+      "sent": "32,649",
+      "replies": "334",
+      "replyRate": "4.61%",
+      "positive": "21",
+      "positiveRate": "6.29%",
+      "images": {
+        "full": "images/campaigns/gabes-window-cleaning-3.webp",
+        "thumb": "images/campaigns/gabes-window-cleaning-3-thumb.webp"
+      }
+    },
+    {
+      "slug": "monroy-sf-cleaning",
+      "title": "Monroy SF Cleaning",
+      "sent": "9,967",
+      "replies": "208",
+      "replyRate": "4.27%",
+      "positive": "9",
+      "positiveRate": "4.33%",
+      "images": {
+        "full": "images/campaigns/monroy-sf-cleaning.webp",
+        "thumb": "images/campaigns/monroy-sf-cleaning-thumb.webp"
+      }
+    },
+    {
+      "slug": "five-campaigns-dashboard",
+      "title": "Five campaigns, one dashboard",
+      "note": "141,977 emails across five campaigns, positive reply rates from 6.38% to 32.32%.",
+      "isTable": true,
+      "images": {
+        "full": "images/campaigns/five-campaigns-dashboard.webp",
+        "thumb": "images/campaigns/five-campaigns-dashboard-thumb.webp"
+      }
+    },
+    {
+      "slug": "agencies-recruiting-table",
+      "title": "Marketing and recruiting agency campaigns",
+      "note": "Four agency campaigns, including the misses: positive rates from 2.13% to 13.55%.",
+      "isTable": true,
+      "images": {
+        "full": "images/campaigns/agencies-recruiting-table.webp",
+        "thumb": "images/campaigns/agencies-recruiting-table-thumb.webp"
+      }
+    }
+  ]
+}
