@@ -3,6 +3,12 @@
    Monochrome, bold display type, scroll-driven motion.
    ========================================================================== */
 
+/* Self-hosted fonts (latin subset). Preloaded in <head> by tools/perf.py */
+@font-face { font-family: "Anton"; font-style: normal; font-weight: 400; font-display: swap; src: url(../fonts/anton-400.woff2) format("woff2"); }
+@font-face { font-family: "Barlow Condensed"; font-style: normal; font-weight: 600; font-display: swap; src: url(../fonts/barlow-condensed-600.woff2) format("woff2"); }
+@font-face { font-family: "Barlow Condensed"; font-style: normal; font-weight: 700; font-display: swap; src: url(../fonts/barlow-condensed-700.woff2) format("woff2"); }
+@font-face { font-family: "Space Mono"; font-style: normal; font-weight: 400; font-display: swap; src: url(../fonts/space-mono-400.woff2) format("woff2"); }
+
 :root {
   --paper: #ecebe6;
   --paper-2: #e2e1db;
@@ -395,8 +401,8 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 
 /* Intro / manifesto */
 .manifesto { font-family: var(--f-display); text-transform: uppercase; font-size: clamp(34px, 5.4vw, 84px); line-height: 1.02; margin: 0; }
-.manifesto .w { display: inline-block; opacity: .14; transition: opacity .3s; }
-.manifesto .w.lit { opacity: 1; }
+.manifesto .w { display: inline-block; color: #7d7c76; transition: color .3s; }
+.manifesto .w.lit { color: var(--ink); }
 .manifesto .pill { display: inline-block; vertical-align: middle; height: .78em; aspect-ratio: 2; border-radius: 999px; background: var(--ink); position: relative; overflow: hidden; margin-inline: .1em; }
 .manifesto .pill img { position: absolute; inset: 8% 10%; width: 80%; height: 84%; object-fit: contain; }
 
@@ -627,7 +633,7 @@ fieldset legend { font-family: var(--f-label); font-weight: 600; text-transform:
   *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; transition-delay: 0s !important; }
   .reveal, .split .char { opacity: 1 !important; transform: none !important; }
   .clip-reveal { clip-path: none !important; }
-  .manifesto .w { opacity: 1 !important; }
+  .manifesto .w { color: var(--ink) !important; }
   .curtain { display: none; }
 }
 
@@ -806,3 +812,6 @@ a.proj__frame { display: block; color: inherit; }
 /* Keyword line inside page H1s (styled like the eyebrow labels) */
 .h1-kicker { display: flex; width: fit-content; line-height: 1.4; margin-bottom: 22px; text-shadow: none; -webkit-text-stroke: 0; color: var(--ink); }
 .hero-title .h1-kicker { margin: 0 auto 28px; background: var(--paper); padding: 6px 14px; border-radius: 99px; }
+
+.proj__btn { position: absolute; inset: 0; z-index: 4; border-radius: inherit; cursor: pointer; }
+.proj__btn:focus-visible { outline: 2px dashed var(--ink); outline-offset: 4px; }

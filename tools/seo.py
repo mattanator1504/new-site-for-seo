@@ -10,11 +10,14 @@ Usage:  python3 tools/seo.py      (also run automatically by tools/build_case_st
 - Adds width/height to every <img> from the image file itself.
 See content-guide/on-page-seo.md.
 """
-import glob, html, json, os, re, struct
+import glob, html, json, os, re, struct, sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import perf  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-SITE_URL = "https://www.example.com"   # TODO: the live domain, no trailing slash
+SITE_URL = "https://new-site-for-seo.vercel.app"   # live domain, no trailing slash. Change when the real domain is connected.
 BRAND = "Renovo Studio"
 SUFFIX = " | " + BRAND
 OG_DEFAULT = "assets/img/og-default.png"
@@ -183,6 +186,7 @@ def apply_page(path):
                       '<meta name="viewport" content="width=device-width, initial-scale=1">\n  ' + block, 1)
     doc = re.sub(r'<html lang="[^"]*">', '<html lang="en-US">', doc, count=1)
     doc = size_images(doc, os.path.dirname(path))
+    doc = perf.optimise(doc, "../" * rel.count("/"))
     open(path, "w").write(doc)
 
 

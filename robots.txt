@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-# TODO: replace with your live domain
-Sitemap: https://www.example.com/sitemap.xml
+
+Sitemap: https://new-site-for-seo.vercel.app/sitemap.xml

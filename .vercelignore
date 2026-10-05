@@ -1,0 +1,9 @@
+_source/
+tools/
+content-guide/
+CLAUDE.md
+README.md
+.gitignore
+assets/img/work/source/cover-*.jpg
+assets/img/work/source/shot-*.jpg
+assets/img/work/logos/*.png

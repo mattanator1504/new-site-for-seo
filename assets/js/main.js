@@ -121,9 +121,13 @@
         } else if (n.nodeType === 1) walk(n);
       });
     };
-    el.setAttribute('aria-label', el.textContent.replace(/\s+/g, ' ').trim());
+    // Screen readers get the plain text; the animated letters are hidden from them
+    const label = document.createElement('span');
+    label.className = 'sr-only';
+    label.textContent = el.textContent.replace(/\s+/g, ' ').trim();
     walk(el);
     $$('.word', el).forEach(w => w.setAttribute('aria-hidden', 'true'));
+    el.prepend(label);
     el.classList.add('split');
   });
 
@@ -192,44 +196,57 @@
   addEventListener('resize', sizeH);
   addEventListener('load', sizeH);
 
+  // Cache sizes so the animation loop never forces a layout (read first, then write)
+  const sizeMarquees = () => marquees.forEach(m => { m.w = m.item.offsetWidth; });
+  sizeMarquees();
+  addEventListener('resize', sizeMarquees);
+  addEventListener('load', sizeMarquees);
+  if (document.fonts) document.fonts.ready.then(sizeMarquees);
+  manifestos.forEach(m => { m._words = $$('.w', m); });
+
   let velocity = 0, prevY = scrollY;
   function frame() {
     const y = scrollY;
     velocity += ((y - prevY) - velocity) * .1;
     prevY = y;
-    const vh = innerHeight;
+    const vh = innerHeight, small = innerWidth <= 760;
 
+    // ---- read
+    const pRects = reduce ? [] : parallax.map(el => el.parentElement.getBoundingClientRect());
+    const hRects = hscrolls.map(h => (small || !h.dist) ? null : h.sec.getBoundingClientRect());
+    const mRects = manifestos.map(m => m.getBoundingClientRect());
+
+    // ---- write
     if (!reduce) {
-      parallax.forEach(el => {
-        const r = el.parentElement.getBoundingClientRect();
+      parallax.forEach((el, i) => {
+        const r = pRects[i];
         if (r.bottom < -200 || r.top > vh + 200) return;
         const center = r.top + r.height / 2 - vh / 2;
         el.style.translate = `0 ${(-center * parseFloat(el.dataset.speed)).toFixed(1)}px`;
       });
       rotators.forEach(el => { el.style.rotate = `${(y * parseFloat(el.dataset.rotate)).toFixed(2)}deg`; });
       marquees.forEach(m => {
-        const w = m.item.offsetWidth;
+        const w = m.w || 1;
         m.x += m.dir * (0.6 + Math.abs(velocity) * .25);
         if (m.x <= -w) m.x += w;
         if (m.x >= 0) m.x -= w;
         m.track.style.transform = `translate3d(${m.x}px,0,0) skewX(${clamp(-velocity * .3, -10, 10)}deg)`;
       });
     }
-
-    hscrolls.forEach(h => {
-      if (innerWidth <= 760 || !h.dist) return;
-      const r = h.sec.getBoundingClientRect();
+    hscrolls.forEach((h, i) => {
+      const r = hRects[i];
+      if (!r) return;
       const p = clamp(-r.top / h.dist, 0, 1);
       h.track.style.transform = `translate3d(${-p * h.dist}px,0,0)`;
       if (h.bar) h.bar.style.transform = `scaleX(${p})`;
     });
-
-    manifestos.forEach(m => {
-      const words = $$('.w', m);
-      const r = m.getBoundingClientRect();
+    manifestos.forEach((m, i) => {
+      const words = m._words, r = mRects[i];
       const p = clamp((vh * .85 - r.top) / (r.height + vh * .35), 0, 1);
       const lit = reduce ? words.length : Math.round(p * words.length);
-      words.forEach((w, i) => w.classList.toggle('lit', i < lit));
+      if (lit === m._lit) return;
+      m._lit = lit;
+      words.forEach((w, k) => w.classList.toggle('lit', k < lit));
     });
 
     requestAnimationFrame(frame);
